@@ -1,0 +1,47 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'application'
+
+mainClassName = 'org.dstadler.intellij.ProcessActionsXml'
+version = '1.0'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Application to produce a nicely formatted list of ActionIDs for the IntelliJ IDE Plugin system', 'Implementation-Version': version
+    }
+}
+
+sourceCompatibility = 1.8
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile 'org.dstadler:commons-dost:1.0.0.20'
+
+    testCompile 'junit:junit:[4.12,)'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.14.1'
+}
+
+test {
+    systemProperties = System.properties
+
+    // enable to show standard out and standard error of the test JVM(s) on the console
+    // testLogging.showStandardStreams = true
+
+    // http://forums.gradle.org/gradle/topics/jacoco_related_failure_in_multiproject_build
+    systemProperties['user.dir'] = workingDir
+}
+
+jacoco {
+    toolVersion = '0.7.7.201606060606'
+}
