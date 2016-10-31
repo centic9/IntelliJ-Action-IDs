@@ -13,17 +13,27 @@ public class ActionXmlHandler extends AbstractSimpleContentHandler<String, Actio
     @Override
     public void startElement(java.lang.String uri, java.lang.String localName, java.lang.String qName, Attributes attributes) throws SAXException {
         // <action id="Vcs.ShowTabbedFileHistory" class="com.intellij.openapi.vcs.actions.TabbedShowHistoryAction" icon="AllIcons.Vcs.History"/>
+        String id = attributes.getValue("id");
+        if(id == null) {
+            // some entries only have a class
+            id = attributes.getValue("class");
+        }
         if(localName.equals("action")) {
             ActionIDDef def = new ActionIDDef();
 
-            def.setId(attributes.getValue("id"));
+            def.setId(id);
             def.setText(attributes.getValue("text"));
             if(group != null) {
                 def.setGroup(group);
             }
-            configs.put(attributes.getValue("id"), def);
+
+            if(id == null) {
+                System.out.println("Could not read id of " + attributes.getValue(0));
+            } else {
+                configs.put(id, def);
+            }
         } else if (localName.equals("group")) {
-            group = attributes.getValue("id");
+            group = id;
         }
     }
 

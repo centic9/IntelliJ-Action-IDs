@@ -24,6 +24,8 @@ public class ProcessActionsXml {
                     System.out.println("File: " + file + ": had " + def.getId() + "/" + def.getText() + "/" + def.getGroup());
                 }
             }
+
+            System.out.println("Found " + ids.size() + " actions in " + ids.keySet().size() + " files");
         }
     }
 }
