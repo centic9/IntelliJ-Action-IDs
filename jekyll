@@ -1,0 +1,3 @@
+#!/bin/sh
+
+~/bin/jekyll build --source docs --destination build/jekyll
