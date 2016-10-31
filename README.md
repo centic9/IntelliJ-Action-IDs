@@ -1,12 +1,12 @@
 A small tool to search an installation of IntelliJ for any XML file and extract a list of action-ids that can be used in
 plugins.
 
-== Structure ==
+### Structure
 
 There is some Java code which scans a given folder. The resulting data is stored as CSV file at docs/_data/actions.csv.
 Some jekyll templates take that data and produce the resulting HTML file.
 
-== Run it ==
+### Run it
 
 Run the application `ProcessActionsXml` by passing it the location of an local IntelliJ installation. It will
 search through all the zip/jar-files recursively to find all files named ``*Action.xml`. The results will end up
@@ -16,16 +16,16 @@ You can then run Jekyll via the script `jekyll` to get the html built in directo
 
 On Github, jekyll will be run automatically upon checkin and publish the results at https://centic9.github.io/IntelliJ-Action-IDs/
 
-#### Sources
+### Sources
 
 The list at http://keithlea.com/idea-actions/ was used as starting point.
 
-#### Contribute
+### Contribute
 
 If you are missing things or have suggestions how to improve the list, please either send pull
 requests or create [issues](https://github.com/centic9/IntelliJ-Action-IDs/issues).
 
-#### Licensing
+### Licensing
 
    Copyright 2013-2016 Dominik Stadler
 
