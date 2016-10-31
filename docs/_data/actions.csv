@@ -1,0 +1,933 @@
+file,id,text,group
+lib\resources.jar\META-INF\XmlActions.xml,Document2XSD,Generate XML Document from XSD Schema...,ToolsXmlGroup
+lib\resources.jar\META-INF\XmlActions.xml,DomCollectionControl.Add,Add,DomCollectionControl
+lib\resources.jar\META-INF\XmlActions.xml,DomCollectionControl.Edit,Edit,DomCollectionControl
+lib\resources.jar\META-INF\XmlActions.xml,DomCollectionControl.Remove,Remove,DomCollectionControl
+lib\resources.jar\META-INF\XmlActions.xml,DomElementsTreeView.AddElement,Insert element,
+lib\resources.jar\META-INF\XmlActions.xml,DomElementsTreeView.DeleteElement,Delete element,
+lib\resources.jar\META-INF\XmlActions.xml,DomElementsTreeView.GotoDomElementDeclarationAction,Goto Element,
+lib\resources.jar\META-INF\XmlActions.xml,EmmetNextEditPoint,Next Emmet Edit Point,GoToEditPointGroup
+lib\resources.jar\META-INF\XmlActions.xml,EmmetPreview,Emmet Preview,Emmet
+lib\resources.jar\META-INF\XmlActions.xml,EmmetPreviousEditPoint,Previous Emmet Edit Point,GoToEditPointGroup
+lib\resources.jar\META-INF\XmlActions.xml,EmmetUpdateTag,Update tag with Emmet,Emmet
+lib\resources.jar\META-INF\XmlActions.xml,EscapeEntities,Encode XML/HTML Special Characters,
+lib\resources.jar\META-INF\XmlActions.xml,GenerateDTD,,ToolsXmlGroup
+lib\resources.jar\META-INF\XmlActions.xml,GenerateXmlTag,XML Tag...,
+lib\resources.jar\META-INF\XmlActions.xml,NewHtmlFile,,NewXml
+lib\resources.jar\META-INF\XmlActions.xml,OpenInBrowser,Open in default _browser,
+lib\resources.jar\META-INF\XmlActions.xml,SurroundWithEmmet,Surround with Emmet,Emmet
+lib\resources.jar\META-INF\XmlActions.xml,ValidateXml,,ToolsXmlGroup
+lib\resources.jar\META-INF\XmlActions.xml,XSD2Document,Generate XSD Schema from XML File...,ToolsXmlGroup
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.AfterCompile,Execute After Make,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.AfterRebuild,Execute After Rebuild,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.AfterSync,Execute After Sync,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.AssignRunConfigurationShortcut,Assign Shortcut...,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.AssignShortcut,Assign Shortcut...,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.AttachProject,,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.BeforeCompile,Execute Before Make,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.BeforeRebuild,Execute Before Rebuild,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.BeforeRun,Execute Before Run/Debug...,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.BeforeSync,Execute Before Sync,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.CollapseAll,Collapse All,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.DetachProject,,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.EditRunConfiguration,Edit Run Configuration...,ExternalSystemView.RunConfigurationMenu
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.ExpandAll,Expand All,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.GroupTasks,Group Tasks,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.IgnoreProject,,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.OpenConfig,,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.OpenTasksActivationManager,,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.RefreshAllProjects,,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.RefreshProject,,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.RemoveRunConfiguration,Remove Run Configuration,ExternalSystemView.RunConfigurationMenu
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.RunTask,_Run Task,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.SelectProjectDataToImport,Select Project Data To Import,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.ShowIgnored,Show Ignored,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.ShowInheritedTasks,Display tasks inherited from sub-projects,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.ShowSettings,,
+lib\resources.jar\idea\ExternalSystemActions.xml,ExternalSystem.ToggleAutoImport,,
+lib\resources.jar\idea\JavaActions.xml,Actions.ActionsPlugin.GenerateToString,to_String(),JavaGenerateGroup1
+lib\resources.jar\idea\JavaActions.xml,AnonymousToInner,,RefactoringMenu4
+lib\resources.jar\idea\JavaActions.xml,CallHierarchy.BaseOnThisType,,
+lib\resources.jar\idea\JavaActions.xml,ChangeTypeSignature,T_ype Migration...,RefactoringMenu1
+lib\resources.jar\idea\JavaActions.xml,ClearSubtypes,Clear Subtypes,
+lib\resources.jar\idea\JavaActions.xml,CollapseBlock,,
+lib\resources.jar\idea\JavaActions.xml,ConvertToInstanceMethod,,RefactoringMenu1
+lib\resources.jar\idea\JavaActions.xml,CountInheritors,Count Inheritors,
+lib\resources.jar\idea\JavaActions.xml,DebugListen,,
+lib\resources.jar\idea\JavaActions.xml,Debugger.AddSteppingFilter,Add Stepping Filter...,JavaDebuggerActions
+lib\resources.jar\idea\JavaActions.xml,Debugger.AdjustArrayRange,,JavaDebuggerActions
+lib\resources.jar\idea\JavaActions.xml,Debugger.AutoRenderer,,Debugger.Representation
+lib\resources.jar\idea\JavaActions.xml,Debugger.CreateRenderer,Create...,Debugger.Representation
+lib\resources.jar\idea\JavaActions.xml,Debugger.CustomizeContextView,,JavaDebuggerActions
+lib\resources.jar\idea\JavaActions.xml,Debugger.CustomizeThreadsView,,JavaDebuggerActions
+lib\resources.jar\idea\JavaActions.xml,Debugger.EditFrameSource,,JavaDebuggerActions
+lib\resources.jar\idea\JavaActions.xml,Debugger.EditNodeSource,,JavaDebuggerActions
+lib\resources.jar\idea\JavaActions.xml,Debugger.EditTypeSource,,JavaDebuggerActions
+lib\resources.jar\idea\JavaActions.xml,Debugger.ForceEarlyReturn,,JavaDebuggerActions
+lib\resources.jar\idea\JavaActions.xml,Debugger.FreezeThread,,JavaDebuggerActions
+lib\resources.jar\idea\JavaActions.xml,Debugger.InterruptThread,,JavaDebuggerActions
+lib\resources.jar\idea\JavaActions.xml,Debugger.PopFrame,,
+lib\resources.jar\idea\JavaActions.xml,Debugger.ResumeThread,,JavaDebuggerActions
+lib\resources.jar\idea\JavaActions.xml,Debugger.ShowTypes,Show types,JavaDebuggerActions
+lib\resources.jar\idea\JavaActions.xml,Debugger.ViewAsGroup,,JavaDebuggerActions
+lib\resources.jar\idea\JavaActions.xml,Debugger.ViewText,,JavaDebuggerActions
+lib\resources.jar\idea\JavaActions.xml,DumpThreads,Get thread dump,
+lib\resources.jar\idea\JavaActions.xml,EncapsulateFields,,RefactoringMenu4
+lib\resources.jar\idea\JavaActions.xml,ExportThreads,,
+lib\resources.jar\idea\JavaActions.xml,ExpressionStatistics,Collect Java Expression Statistics,
+lib\resources.jar\idea\JavaActions.xml,FileChooser.GotoJDK,,
+lib\resources.jar\idea\JavaActions.xml,GenerateConstructor,,JavaGenerateGroup1
+lib\resources.jar\idea\JavaActions.xml,GenerateCreateUI,,JavaGenerateGroup1
+lib\resources.jar\idea\JavaActions.xml,GenerateDataMethod,,JavaGenerateGroup1
+lib\resources.jar\idea\JavaActions.xml,GenerateEquals,,JavaGenerateGroup1
+lib\resources.jar\idea\JavaActions.xml,GenerateGetter,,JavaGenerateGroup1
+lib\resources.jar\idea\JavaActions.xml,GenerateGetterAndSetter,,JavaGenerateGroup1
+lib\resources.jar\idea\JavaActions.xml,GenerateJavadoc,,
+lib\resources.jar\idea\JavaActions.xml,GenerateSetUpMethod,,JavaGenerateGroup1
+lib\resources.jar\idea\JavaActions.xml,GenerateSetter,,JavaGenerateGroup1
+lib\resources.jar\idea\JavaActions.xml,GenerateSuperMethodCall,,JavaGenerateGroup2
+lib\resources.jar\idea\JavaActions.xml,GenerateTearDownMethod,,JavaGenerateGroup1
+lib\resources.jar\idea\JavaActions.xml,GenerateTestMethod,,JavaGenerateGroup1
+lib\resources.jar\idea\JavaActions.xml,GenerateVisitorByHierarchy,Generate Hierarchy Visitor...,
+lib\resources.jar\idea\JavaActions.xml,Generify,,RefactoringMenu4
+lib\resources.jar\idea\JavaActions.xml,Hotswap,,
+lib\resources.jar\idea\JavaActions.xml,InferNullity,,
+lib\resources.jar\idea\JavaActions.xml,InheritanceToDelegation,,RefactoringMenu4
+lib\resources.jar\idea\JavaActions.xml,IntroduceFunctionalParameter,,
+lib\resources.jar\idea\JavaActions.xml,LogSubtypes,Log Subtypes,
+lib\resources.jar\idea\JavaActions.xml,MakeStatic,,RefactoringMenu1
+lib\resources.jar\idea\JavaActions.xml,MarkGeneratedSourceRoot,,MarkGeneratedSourceRootGroup
+lib\resources.jar\idea\JavaActions.xml,MethodDuplicates,,RefactoringMenu2
+lib\resources.jar\idea\JavaActions.xml,MethodHierarchy.BaseOnThisType,,
+lib\resources.jar\idea\JavaActions.xml,MethodHierarchy.ImplementMethodAction,,JavaMethodHierarchyPopupMenu
+lib\resources.jar\idea\JavaActions.xml,MethodHierarchy.OverrideMethodAction,,JavaMethodHierarchyPopupMenu
+lib\resources.jar\idea\JavaActions.xml,Migrate,,RefactoringMenu4
+lib\resources.jar\idea\JavaActions.xml,NewClass,,
+lib\resources.jar\idea\JavaActions.xml,NewPackageInfo,,
+lib\resources.jar\idea\JavaActions.xml,RemoveMiddleman,,RefactoringMenu4
+lib\resources.jar\idea\JavaActions.xml,RenameFile,,
+lib\resources.jar\idea\JavaActions.xml,ReplaceConstructorWithBuilder,,RefactoringMenu4
+lib\resources.jar\idea\JavaActions.xml,ReplaceConstructorWithFactory,,RefactoringMenu4
+lib\resources.jar\idea\JavaActions.xml,ReplaceMethodWithMethodObject,,
+lib\resources.jar\idea\JavaActions.xml,ReplaceTempWithQuery,,RefactoringMenu4
+lib\resources.jar\idea\JavaActions.xml,ShowBackwardPackageDeps,,
+lib\resources.jar\idea\JavaActions.xml,ShowDependenciesOnTarget,,
+lib\resources.jar\idea\JavaActions.xml,ShowModulesDependencies,,
+lib\resources.jar\idea\JavaActions.xml,ShowPackageCycles,,AnalyzeJavaMenu
+lib\resources.jar\idea\JavaActions.xml,ShowPackageDeps,,
+lib\resources.jar\idea\JavaActions.xml,StartupWizard,,
+lib\resources.jar\idea\JavaActions.xml,StaticIconFields,List Static Field Initializers,
+lib\resources.jar\idea\JavaActions.xml,StubHierarchy,Build Stub Hierarchy,
+lib\resources.jar\idea\JavaActions.xml,TestStubHierarchy,Test Stub Hierarchy,
+lib\resources.jar\idea\JavaActions.xml,ToggleFieldBreakpoint,,ToggleBreakpointAction
+lib\resources.jar\idea\JavaActions.xml,ToggleMethodBreakpoint,,ToggleBreakpointAction
+lib\resources.jar\idea\JavaActions.xml,TurnRefsToSuper,,RefactoringMenu4
+lib\resources.jar\idea\JavaActions.xml,TypeHierarchy.BaseOnThisType,,
+lib\resources.jar\idea\JavaActions.xml,UnmarkGeneratedSourceRoot,,MarkGeneratedSourceRootGroup
+lib\resources.jar\idea\JavaActions.xml,Unscramble,,AnalyzeJavaMenu
+lib\resources.jar\idea\JavaActions.xml,UsedIconsListing,List Used Icons,
+lib\resources.jar\idea\JavaActions.xml,WrapReturnValue,,RefactoringMenu4
+lib\resources.jar\idea\LangActions.xml,ActivateNavBar,,
+lib\resources.jar\idea\LangActions.xml,AddNewFavoritesList,,
+lib\resources.jar\idea\LangActions.xml,AddToFavoritesPopup,,
+lib\resources.jar\idea\LangActions.xml,Arrangement.Alias.Rule.Add,,
+lib\resources.jar\idea\LangActions.xml,Arrangement.Alias.Rule.Edit,,
+lib\resources.jar\idea\LangActions.xml,Arrangement.Alias.Rule.Match.Condition.Move.Down,,
+lib\resources.jar\idea\LangActions.xml,Arrangement.Alias.Rule.Match.Condition.Move.Up,,
+lib\resources.jar\idea\LangActions.xml,Arrangement.Alias.Rule.Remove,,
+lib\resources.jar\idea\LangActions.xml,Arrangement.Custom.Token.Rule.Edit,,
+lib\resources.jar\idea\LangActions.xml,Arrangement.Rule.Add,,
+lib\resources.jar\idea\LangActions.xml,Arrangement.Rule.Edit,,
+lib\resources.jar\idea\LangActions.xml,Arrangement.Rule.Group.Condition.Move.Down,,
+lib\resources.jar\idea\LangActions.xml,Arrangement.Rule.Group.Condition.Move.Up,,
+lib\resources.jar\idea\LangActions.xml,Arrangement.Rule.Match.Condition.Move.Down,,
+lib\resources.jar\idea\LangActions.xml,Arrangement.Rule.Match.Condition.Move.Up,,
+lib\resources.jar\idea\LangActions.xml,Arrangement.Rule.Remove,,
+lib\resources.jar\idea\LangActions.xml,Arrangement.Rule.Section.Add,,
+lib\resources.jar\idea\LangActions.xml,AssociateWithFileType,,ProjectViewPopupMenu
+lib\resources.jar\idea\LangActions.xml,AutoIndentLines,,CodeFormatGroup
+lib\resources.jar\idea\LangActions.xml,CallHierarchy,,HierarchyGroup
+lib\resources.jar\idea\LangActions.xml,ChangeCodeStyleScheme,,
+lib\resources.jar\idea\LangActions.xml,ChangeInspectionProfile,,
+lib\resources.jar\idea\LangActions.xml,ChangeSignature,,RefactoringMenu
+lib\resources.jar\idea\LangActions.xml,ChangeTemplateDataLanguage,,
+lib\resources.jar\idea\LangActions.xml,ChooseDebugConfiguration,Debug...,
+lib\resources.jar\idea\LangActions.xml,ChooseRunConfiguration,Run...,
+lib\resources.jar\idea\LangActions.xml,ClassNameCompletion,,
+lib\resources.jar\idea\LangActions.xml,CodeCompletion,,CodeCompletionGroup
+lib\resources.jar\idea\LangActions.xml,CodeInspection.OnEditor,,
+lib\resources.jar\idea\LangActions.xml,CollapseAllRegions,,FoldingGroup
+lib\resources.jar\idea\LangActions.xml,CollapseDocComments,,LanguageSpecificFoldingGroup
+lib\resources.jar\idea\LangActions.xml,CollapseRegion,,FoldingGroup
+lib\resources.jar\idea\LangActions.xml,CollapseRegionRecursively,,FoldingGroup
+lib\resources.jar\idea\LangActions.xml,CollapseSelection,,
+lib\resources.jar\idea\LangActions.xml,CommentByBlockComment,,CommentGroup
+lib\resources.jar\idea\LangActions.xml,CommentByLineComment,,CommentGroup
+lib\resources.jar\idea\LangActions.xml,ConsoleView.ClearAll,,ConsoleView.PopupMenu
+lib\resources.jar\idea\LangActions.xml,CopyAsPlainText,,
+lib\resources.jar\idea\LangActions.xml,CopyAsRichText,,
+lib\resources.jar\idea\LangActions.xml,CopyElement,,RefactoringMenu
+lib\resources.jar\idea\LangActions.xml,CopyReference,,
+lib\resources.jar\idea\LangActions.xml,CreateRunConfiguration,,
+lib\resources.jar\idea\LangActions.xml,Debugger.AddToWatch,,
+lib\resources.jar\idea\LangActions.xml,Debugger.EvaluateInConsole,,
+lib\resources.jar\idea\LangActions.xml,Debugger.FocusOnBreakpoint,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,Debugger.MarkObject,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,Debugger.ShowLibraryFrames,,XDebugger.Frames.TopToolbar
+lib\resources.jar\idea\LangActions.xml,Debugger.ShowReferring,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,Debugger.Tree.AddToWatches,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,Debugger.Tree.EvaluateInConsole,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,DelegateMethods,,GenerateGroup
+lib\resources.jar\idea\LangActions.xml,DisableInspection,,InspectionToolWindow.TreePopup
+lib\resources.jar\idea\LangActions.xml,DumpLookupElementWeights,Dump lookup element weights to log,
+lib\resources.jar\idea\LangActions.xml,EditBreakpoint,,
+lib\resources.jar\idea\LangActions.xml,EditFavorites,,FavoritesViewPopupMenu
+lib\resources.jar\idea\LangActions.xml,EditInspectionSettings,,InspectionToolWindow.TreePopup
+lib\resources.jar\idea\LangActions.xml,EditorCodeBlockEnd,,CodeInsightEditorActions
+lib\resources.jar\idea\LangActions.xml,EditorCodeBlockEndWithSelection,,CodeInsightEditorActions
+lib\resources.jar\idea\LangActions.xml,EditorCodeBlockStart,,CodeInsightEditorActions
+lib\resources.jar\idea\LangActions.xml,EditorCodeBlockStartWithSelection,,CodeInsightEditorActions
+lib\resources.jar\idea\LangActions.xml,EditorCompleteStatement,,CodeInsightEditorActions
+lib\resources.jar\idea\LangActions.xml,EditorContextInfo,,CodeEditorViewGroup
+lib\resources.jar\idea\LangActions.xml,EditorIndentLineOrSelection,,
+lib\resources.jar\idea\LangActions.xml,EditorMatchBrace,,CodeInsightEditorActions
+lib\resources.jar\idea\LangActions.xml,EditorSelectWord,,LangCodeInsightActions
+lib\resources.jar\idea\LangActions.xml,EditorUnSelectWord,,LangCodeInsightActions
+lib\resources.jar\idea\LangActions.xml,EmacsStyleIndent,,CodeInsightEditorActions
+lib\resources.jar\idea\LangActions.xml,EvaluateExpression,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,ExpandAllRegions,,FoldingGroup
+lib\resources.jar\idea\LangActions.xml,ExpandAllToLevel1,,ExpandAllToLevel
+lib\resources.jar\idea\LangActions.xml,ExpandAllToLevel2,,ExpandAllToLevel
+lib\resources.jar\idea\LangActions.xml,ExpandAllToLevel3,,ExpandAllToLevel
+lib\resources.jar\idea\LangActions.xml,ExpandAllToLevel4,,ExpandAllToLevel
+lib\resources.jar\idea\LangActions.xml,ExpandAllToLevel5,,ExpandAllToLevel
+lib\resources.jar\idea\LangActions.xml,ExpandDocComments,,LanguageSpecificFoldingGroup
+lib\resources.jar\idea\LangActions.xml,ExpandRegion,,FoldingGroup
+lib\resources.jar\idea\LangActions.xml,ExpandRegionRecursively,,FoldingGroup
+lib\resources.jar\idea\LangActions.xml,ExpandToLevel1,,ExpandToLevel
+lib\resources.jar\idea\LangActions.xml,ExpandToLevel2,,ExpandToLevel
+lib\resources.jar\idea\LangActions.xml,ExpandToLevel3,,ExpandToLevel
+lib\resources.jar\idea\LangActions.xml,ExpandToLevel4,,ExpandToLevel
+lib\resources.jar\idea\LangActions.xml,ExpandToLevel5,,ExpandToLevel
+lib\resources.jar\idea\LangActions.xml,ExportToHTML,,PrintExportGroup
+lib\resources.jar\idea\LangActions.xml,ExpressionTypeInfo,,CodeEditorViewGroup
+lib\resources.jar\idea\LangActions.xml,ExternalJavaDoc,,CodeEditorViewGroup
+lib\resources.jar\idea\LangActions.xml,ExtractClass,,IntroduceActionsGroup
+lib\resources.jar\idea\LangActions.xml,ExtractInclude,,IntroduceActionsGroup
+lib\resources.jar\idea\LangActions.xml,ExtractInterface,,IntroduceActionsGroup
+lib\resources.jar\idea\LangActions.xml,ExtractMethod,,IntroduceActionsGroup
+lib\resources.jar\idea\LangActions.xml,ExtractModule,,IntroduceActionsGroup
+lib\resources.jar\idea\LangActions.xml,ExtractSuperclass,,IntroduceActionsGroup
+lib\resources.jar\idea\LangActions.xml,FileStructurePopup,,GoToCodeGroup
+lib\resources.jar\idea\LangActions.xml,FindModal,,
+lib\resources.jar\idea\LangActions.xml,FixDocComment,,
+lib\resources.jar\idea\LangActions.xml,ForceRunToCursor,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,ForceStepInto,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,ForceStepOver,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,Generate,,CodeMenu
+lib\resources.jar\idea\LangActions.xml,GeneratePattern,Generate by Pattern...,GenerateGroup
+lib\resources.jar\idea\LangActions.xml,GoToLinkTarget,,ProjectViewPopupMenu
+lib\resources.jar\idea\LangActions.xml,GotoBookmark0,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,GotoBookmark1,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,GotoBookmark2,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,GotoBookmark3,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,GotoBookmark4,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,GotoBookmark5,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,GotoBookmark6,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,GotoBookmark7,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,GotoBookmark8,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,GotoBookmark9,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,GotoClass,,GoToTargetEx
+lib\resources.jar\idea\LangActions.xml,GotoCustomRegion,,GoToTargetEx
+lib\resources.jar\idea\LangActions.xml,GotoDeclaration,,GoToCodeGroup
+lib\resources.jar\idea\LangActions.xml,GotoFile,,GoToTargetEx
+lib\resources.jar\idea\LangActions.xml,GotoImplementation,,GoToCodeGroup
+lib\resources.jar\idea\LangActions.xml,GotoNextBookmark,,EditBookmarksGroup
+lib\resources.jar\idea\LangActions.xml,GotoNextError,,GoToErrorGroup
+lib\resources.jar\idea\LangActions.xml,GotoPreviousBookmark,,EditBookmarksGroup
+lib\resources.jar\idea\LangActions.xml,GotoPreviousError,,GoToErrorGroup
+lib\resources.jar\idea\LangActions.xml,GotoRelated,,GoToCodeGroup
+lib\resources.jar\idea\LangActions.xml,GotoSuperMethod,,GoToCodeGroup
+lib\resources.jar\idea\LangActions.xml,GotoSymbol,,GoToTargetEx
+lib\resources.jar\idea\LangActions.xml,GotoTest,,GoToCodeGroup
+lib\resources.jar\idea\LangActions.xml,GotoTypeDeclaration,,GoToCodeGroup
+lib\resources.jar\idea\LangActions.xml,HippieBackwardCompletion,,CodeCompletionGroup
+lib\resources.jar\idea\LangActions.xml,HippieCompletion,,CodeCompletionGroup
+lib\resources.jar\idea\LangActions.xml,IdeScriptingConsole,,ToolsBasicGroup
+lib\resources.jar\idea\LangActions.xml,ImplementMethods,,GenerateGroup
+lib\resources.jar\idea\LangActions.xml,ImportTests,Import Test Results,
+lib\resources.jar\idea\LangActions.xml,IncrementalSearch,,
+lib\resources.jar\idea\LangActions.xml,Inline,,
+lib\resources.jar\idea\LangActions.xml,InsertLiveTemplate,,
+lib\resources.jar\idea\LangActions.xml,IntroduceConstant,,IntroduceActionsGroup
+lib\resources.jar\idea\LangActions.xml,IntroduceField,,IntroduceActionsGroup
+lib\resources.jar\idea\LangActions.xml,IntroduceParameter,,IntroduceActionsGroup
+lib\resources.jar\idea\LangActions.xml,IntroduceParameterObject,,IntroduceActionsGroup
+lib\resources.jar\idea\LangActions.xml,IntroduceVariable,,IntroduceActionsGroup
+lib\resources.jar\idea\LangActions.xml,InvertBoolean,,
+lib\resources.jar\idea\LangActions.xml,LocalHistory.PutLabel,,LocalHistory
+lib\resources.jar\idea\LangActions.xml,LocalHistory.ShowHistory,,LocalHistory
+lib\resources.jar\idea\LangActions.xml,LocalHistory.ShowSelectionHistory,,LocalHistory
+lib\resources.jar\idea\LangActions.xml,MarkAsOriginalTypeAction,,MarkFileAs
+lib\resources.jar\idea\LangActions.xml,MarkAsPlainTextAction,,MarkFileAs
+lib\resources.jar\idea\LangActions.xml,MemberPushDown,,
+lib\resources.jar\idea\LangActions.xml,MembersPullUp,,
+lib\resources.jar\idea\LangActions.xml,MethodDown,,GoToMenuEx
+lib\resources.jar\idea\LangActions.xml,MethodHierarchy,,HierarchyGroup
+lib\resources.jar\idea\LangActions.xml,MethodUp,,GoToMenuEx
+lib\resources.jar\idea\LangActions.xml,Move,,RefactoringMenu
+lib\resources.jar\idea\LangActions.xml,MoveElementLeft,,
+lib\resources.jar\idea\LangActions.xml,MoveElementRight,,
+lib\resources.jar\idea\LangActions.xml,MoveLineDown,,
+lib\resources.jar\idea\LangActions.xml,MoveLineUp,,
+lib\resources.jar\idea\LangActions.xml,MoveStatementDown,,
+lib\resources.jar\idea\LangActions.xml,MoveStatementUp,,
+lib\resources.jar\idea\LangActions.xml,NewDir,,NewGroup
+lib\resources.jar\idea\LangActions.xml,NewElementSamePlace,,
+lib\resources.jar\idea\LangActions.xml,NewFile,,NewGroup
+lib\resources.jar\idea\LangActions.xml,NewFromTemplate,,NewGroup
+lib\resources.jar\idea\LangActions.xml,NewScratchBuffer,,
+lib\resources.jar\idea\LangActions.xml,NewScratchFile,,ToolsBasicGroup
+lib\resources.jar\idea\LangActions.xml,OptimizeImports,,CodeFormatGroup
+lib\resources.jar\idea\LangActions.xml,OverrideMethods,,GenerateGroup
+lib\resources.jar\idea\LangActions.xml,ParameterInfo,,CodeEditorViewGroup
+lib\resources.jar\idea\LangActions.xml,Pause,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,Print,,PrintExportGroup
+lib\resources.jar\idea\LangActions.xml,ProjectViewChangeView,,
+lib\resources.jar\idea\LangActions.xml,QuickEvaluateExpression,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,QuickFixes,,InspectionToolWindow.TreePopup
+lib\resources.jar\idea\LangActions.xml,QuickImplementations,,QuickActions
+lib\resources.jar\idea\LangActions.xml,QuickJavaDoc,,QuickActions
+lib\resources.jar\idea\LangActions.xml,RearrangeCode,,CodeFormatGroup
+lib\resources.jar\idea\LangActions.xml,RecentChanges,,
+lib\resources.jar\idea\LangActions.xml,Refactorings.QuickListPopupAction,Refactor This...,RefactoringMenu
+lib\resources.jar\idea\LangActions.xml,ReformatCode,,CodeFormatGroup
+lib\resources.jar\idea\LangActions.xml,ReloadFromDisk,,
+lib\resources.jar\idea\LangActions.xml,RenameElement,,RefactoringMenu
+lib\resources.jar\idea\LangActions.xml,RestoreDefaultExtensionScripts,,ProjectViewPopupMenu
+lib\resources.jar\idea\LangActions.xml,Resume,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,RevealIn,,ProjectViewPopupMenu
+lib\resources.jar\idea\LangActions.xml,RunConfiguration,,
+lib\resources.jar\idea\LangActions.xml,RunInspectionOn,,InspectionToolWindow.TreePopup
+lib\resources.jar\idea\LangActions.xml,RunToCursor,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,Runner.CloseAllUnpinnedViews,,Runner.View.Close.Group
+lib\resources.jar\idea\LangActions.xml,Runner.CloseAllViews,,Runner.View.Close.Group
+lib\resources.jar\idea\LangActions.xml,Runner.CloseOtherViews,,Runner.View.Close.Group
+lib\resources.jar\idea\LangActions.xml,Runner.CloseView,,Runner.View.Close.Group
+lib\resources.jar\idea\LangActions.xml,Runner.FocusOnStartup,,Runner.Focus
+lib\resources.jar\idea\LangActions.xml,Runner.MinimizeView,,Runner.View.Popup
+lib\resources.jar\idea\LangActions.xml,Runner.RestoreLayout,,Runner.Layout
+lib\resources.jar\idea\LangActions.xml,SafeDelete,,RefactoringMenu
+lib\resources.jar\idea\LangActions.xml,SaveAsTemplate,,ToolsBasicGroup
+lib\resources.jar\idea\LangActions.xml,SaveFileAsTemplate,,ToolsBasicGroup
+lib\resources.jar\idea\LangActions.xml,ScopeView.EditScopes,,ScopeViewPopupMenu
+lib\resources.jar\idea\LangActions.xml,Scratch.ChangeLanguage,,
+lib\resources.jar\idea\LangActions.xml,SelectIn,,GoToCodeGroup
+lib\resources.jar\idea\LangActions.xml,SendEOF,Send EOF,
+lib\resources.jar\idea\LangActions.xml,SeverityEditorDialog,,
+lib\resources.jar\idea\LangActions.xml,ShowBookmarks,,EditBookmarksGroup
+lib\resources.jar\idea\LangActions.xml,ShowErrorDescription,,CodeEditorViewGroup
+lib\resources.jar\idea\LangActions.xml,ShowExecutionPoint,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,ShowFilePath,,GoToCodeGroup
+lib\resources.jar\idea\LangActions.xml,ShowIntentionActions,,
+lib\resources.jar\idea\LangActions.xml,ShowLiveRunConfigurations,,
+lib\resources.jar\idea\LangActions.xml,ShowNavBar,,GoToCodeGroup
+lib\resources.jar\idea\LangActions.xml,ShowReformatFileDialog,,CodeFormatGroup
+lib\resources.jar\idea\LangActions.xml,SliceBackward,,
+lib\resources.jar\idea\LangActions.xml,SliceForward,,
+lib\resources.jar\idea\LangActions.xml,SmartStepInto,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,SmartTypeCompletion,,CodeCompletionGroup
+lib\resources.jar\idea\LangActions.xml,StepInto,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,StepOut,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,StepOver,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,Stop,,
+lib\resources.jar\idea\LangActions.xml,SuppressFixes,,InspectionToolWindow.TreePopup
+lib\resources.jar\idea\LangActions.xml,SurroundWith,,CodeMenu
+lib\resources.jar\idea\LangActions.xml,SurroundWithLiveTemplate,,
+lib\resources.jar\idea\LangActions.xml,SynchronizeCurrentFile,,ProjectViewPopupMenu
+lib\resources.jar\idea\LangActions.xml,ToggleBookmark,,EditBookmarksGroup
+lib\resources.jar\idea\LangActions.xml,ToggleBookmark0,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,ToggleBookmark1,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,ToggleBookmark2,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,ToggleBookmark3,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,ToggleBookmark4,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,ToggleBookmark5,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,ToggleBookmark6,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,ToggleBookmark7,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,ToggleBookmark8,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,ToggleBookmark9,,Bookmarks
+lib\resources.jar\idea\LangActions.xml,ToggleBookmarkWithMnemonic,,EditBookmarksGroup
+lib\resources.jar\idea\LangActions.xml,ToggleBreakpointEnabled,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,ToggleLineBreakpoint,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,TogglePopupHints,,
+lib\resources.jar\idea\LangActions.xml,TogglePowerSave,,PowerSaveGroup
+lib\resources.jar\idea\LangActions.xml,ToggleTemporaryLineBreakpoint,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,TypeHierarchy,,HierarchyGroup
+lib\resources.jar\idea\LangActions.xml,TypeHierarchy.Class,,
+lib\resources.jar\idea\LangActions.xml,TypeHierarchy.Subtypes,,
+lib\resources.jar\idea\LangActions.xml,TypeHierarchy.Supertypes,,
+lib\resources.jar\idea\LangActions.xml,TypeHierarchyBase.BaseOnThisType,Base on This Type,
+lib\resources.jar\idea\LangActions.xml,Unwrap,,CodeMenu
+lib\resources.jar\idea\LangActions.xml,UsageView.Exclude,,TreeNodeExclusion
+lib\resources.jar\idea\LangActions.xml,UsageView.Include,,TreeNodeExclusion
+lib\resources.jar\idea\LangActions.xml,UsageView.Remove,,UsageView.Popup
+lib\resources.jar\idea\LangActions.xml,UsageView.Rerun,,UsageView.Popup
+lib\resources.jar\idea\LangActions.xml,UsageView.ShowRecentFindUsages,,UsageView.Popup
+lib\resources.jar\idea\LangActions.xml,ViewBreakpoints,,DebugMainMenu
+lib\resources.jar\idea\LangActions.xml,ViewImportPopups,,
+lib\resources.jar\idea\LangActions.xml,ViewNavigationBar,,
+lib\resources.jar\idea\LangActions.xml,XDebugger.CompareValueWithClipboard,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,XDebugger.CopyName,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,XDebugger.CopyValue,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,XDebugger.CopyWatch,Copy Watch,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,XDebugger.EditWatch,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,XDebugger.Inline,,XDebugger.Settings
+lib\resources.jar\idea\LangActions.xml,XDebugger.Inspect,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,XDebugger.JumpToSource,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,XDebugger.JumpToTypeSource,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,XDebugger.MuteBreakpoints,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,XDebugger.NewWatch,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,XDebugger.RemoveAllWatches,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,XDebugger.RemoveWatch,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,XDebugger.SetValue,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,XDebugger.ToggleSortValues,,XDebugger.Actions
+lib\resources.jar\idea\LangActions.xml,XDebugger.UnmuteOnStop,,XDebugger.Settings
+lib\resources.jar\idea\LangActions.xml,editRunConfigurations,,
+lib\resources.jar\idea\LangActions.xml,openAssertEqualsDiff,View assertEquals Difference,
+lib\resources.jar\idea\PlatformActions.xml,$Copy,,CutCopyPasteGroup
+lib\resources.jar\idea\PlatformActions.xml,$Cut,,CutCopyPasteGroup
+lib\resources.jar\idea\PlatformActions.xml,$Delete,,EditCreateDeleteGroup
+lib\resources.jar\idea\PlatformActions.xml,$Paste,,CutCopyPasteGroup
+lib\resources.jar\idea\PlatformActions.xml,$Redo,Redo,EditMenu
+lib\resources.jar\idea\PlatformActions.xml,$SearchWeb,,
+lib\resources.jar\idea\PlatformActions.xml,$SelectAll,,EditSelectGroup
+lib\resources.jar\idea\PlatformActions.xml,$Undo,Undo,EditMenu
+lib\resources.jar\idea\PlatformActions.xml,About,,HelpMenu
+lib\resources.jar\idea\PlatformActions.xml,AddManyTestProcesses,Add Many Test Processes,
+lib\resources.jar\idea\PlatformActions.xml,AddNewTabToTheEndMode,,
+lib\resources.jar\idea\PlatformActions.xml,AddTestProcessAction,Add Test Process,
+lib\resources.jar\idea\PlatformActions.xml,AddTestProcessActionIndefinte,Add Test Process Indefinite,
+lib\resources.jar\idea\PlatformActions.xml,AnimatorTestAction,Test Animator,
+lib\resources.jar\idea\PlatformActions.xml,AutoShowProcessWindow,,BackgroundTasks
+lib\resources.jar\idea\PlatformActions.xml,Back,,GoToMenu
+lib\resources.jar\idea\PlatformActions.xml,ChangeColorScheme,,ChangeScheme
+lib\resources.jar\idea\PlatformActions.xml,ChangeFileEncodingAction,,
+lib\resources.jar\idea\PlatformActions.xml,ChangeKeymap,,ChangeScheme
+lib\resources.jar\idea\PlatformActions.xml,ChangeLaf,,ChangeScheme
+lib\resources.jar\idea\PlatformActions.xml,ChangeSplitOrientation,,
+lib\resources.jar\idea\PlatformActions.xml,ChangeView,,ChangeScheme
+lib\resources.jar\idea\PlatformActions.xml,CheckForUpdate,,HelpMenu
+lib\resources.jar\idea\PlatformActions.xml,CheckMessagesButtonsOrderAction,Check Messages Buttons Order,Internal.focusAndModality
+lib\resources.jar\idea\PlatformActions.xml,CloseActiveTab,,ActiveToolwindowGroup
+lib\resources.jar\idea\PlatformActions.xml,CloseAllEditors,,CloseEditorsGroup
+lib\resources.jar\idea\PlatformActions.xml,CloseAllEditorsButActive,,CloseEditorsGroup
+lib\resources.jar\idea\PlatformActions.xml,CloseAllUnpinnedEditors,,CloseEditorsGroup
+lib\resources.jar\idea\PlatformActions.xml,CloseContent,,CloseEditorsGroup
+lib\resources.jar\idea\PlatformActions.xml,CloseEditor,,
+lib\resources.jar\idea\PlatformActions.xml,CloseProject,,
+lib\resources.jar\idea\PlatformActions.xml,CollapseAll,,
+lib\resources.jar\idea\PlatformActions.xml,CollapseTreeNode,,
+lib\resources.jar\idea\PlatformActions.xml,ColorBlindnessTest,Test ColorBlindness,
+lib\resources.jar\idea\PlatformActions.xml,CompareClipboardWithSelection,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,CompareDirs,Compare Directories,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,CompareFileWithEditor,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,CompareTwoFiles,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Console.Execute,,
+lib\resources.jar\idea\PlatformActions.xml,Console.Execute.Multiline,,
+lib\resources.jar\idea\PlatformActions.xml,Console.History.Browse,,Console.HistoryActions
+lib\resources.jar\idea\PlatformActions.xml,Console.History.Next,,Console.HistoryActions
+lib\resources.jar\idea\PlatformActions.xml,Console.History.Previous,,Console.HistoryActions
+lib\resources.jar\idea\PlatformActions.xml,Console.Open,,
+lib\resources.jar\idea\PlatformActions.xml,Console.SplitLine,,
+lib\resources.jar\idea\PlatformActions.xml,ContextHelp,,
+lib\resources.jar\idea\PlatformActions.xml,ConvertIndentsToSpaces,,ConvertIndentsGroup
+lib\resources.jar\idea\PlatformActions.xml,ConvertIndentsToTabs,,ConvertIndentsGroup
+lib\resources.jar\idea\PlatformActions.xml,ConvertToMacLineSeparators,,ChangeLineSeparators
+lib\resources.jar\idea\PlatformActions.xml,ConvertToUnixLineSeparators,,ChangeLineSeparators
+lib\resources.jar\idea\PlatformActions.xml,ConvertToWindowsLineSeparators,,ChangeLineSeparators
+lib\resources.jar\idea\PlatformActions.xml,CopyPaths,,CutCopyPasteGroup
+lib\resources.jar\idea\PlatformActions.xml,CopyUrl,,ConsoleEditorPopupMenu
+lib\resources.jar\idea\PlatformActions.xml,CreateDesktopEntry,,ToolsMenu
+lib\resources.jar\idea\PlatformActions.xml,CreateLauncherScript,,ToolsMenu
+lib\resources.jar\idea\PlatformActions.xml,DecrementWindowHeight,,
+lib\resources.jar\idea\PlatformActions.xml,DecrementWindowWidth,,
+lib\resources.jar\idea\PlatformActions.xml,Diff.AppendLeftSide,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.AppendRightSide,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.ApplyLeftSide,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.ApplyNonConflicts,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.ApplyNonConflicts.Left,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.ApplyNonConflicts.Right,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.ApplyRightSide,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.ComparePartial.Base.Left,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.ComparePartial.Base.Right,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.ComparePartial.Left.Right,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.FocusOppositePane,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.FocusOppositePaneAndScroll,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.HighlightMode,,DiffPanel.Toolbar
+lib\resources.jar\idea\PlatformActions.xml,Diff.IgnoreLeftSide,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.IgnoreRightSide,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.IgnoreWhitespace,,DiffPanel.Toolbar
+lib\resources.jar\idea\PlatformActions.xml,Diff.NextConflict,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.PreviousConflict,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.ShowDiff,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.ShowInExternalTool,Show Diff in External Tool,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,Diff.ShowSettingsPopup,Show Diff Settings Popup...,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,DirDiffMenu.EnableEqual,Show equal files,DirDiffMenu
+lib\resources.jar\idea\PlatformActions.xml,DirDiffMenu.EnableLeft,Show new files on left side,DirDiffMenu
+lib\resources.jar\idea\PlatformActions.xml,DirDiffMenu.EnableNotEqual,Show difference,DirDiffMenu
+lib\resources.jar\idea\PlatformActions.xml,DirDiffMenu.EnableRight,Show new files on right side,DirDiffMenu
+lib\resources.jar\idea\PlatformActions.xml,DirDiffMenu.SetCopyToLeft,Set Copy to Left,DirDiffMenu
+lib\resources.jar\idea\PlatformActions.xml,DirDiffMenu.SetCopyToRight,Set Copy to Right,DirDiffMenu
+lib\resources.jar\idea\PlatformActions.xml,DirDiffMenu.SetDefault,Set Default,DirDiffMenu
+lib\resources.jar\idea\PlatformActions.xml,DirDiffMenu.SetDelete,Set Delete,DirDiffMenu
+lib\resources.jar\idea\PlatformActions.xml,DirDiffMenu.SetNoOperation,Set Do Nothing,DirDiffMenu
+lib\resources.jar\idea\PlatformActions.xml,DirDiffMenu.WarnOnDeletion,Warn When Delete,DirDiffMenu
+lib\resources.jar\idea\PlatformActions.xml,DropAnError,,Internal.Errors
+lib\resources.jar\idea\PlatformActions.xml,DropAnErrorWithAttachments,,Internal.Errors
+lib\resources.jar\idea\PlatformActions.xml,DropAnOutOfMemoryError,,Internal.Errors
+lib\resources.jar\idea\PlatformActions.xml,DropAnOutOfPermGenMemoryError,,Internal.Errors
+lib\resources.jar\idea\PlatformActions.xml,DumbMode,Dumb Mode,
+lib\resources.jar\idea\PlatformActions.xml,EditCustomProperties,,HelpMenu
+lib\resources.jar\idea\PlatformActions.xml,EditCustomVmOptions,,HelpMenu
+lib\resources.jar\idea\PlatformActions.xml,EditMacros,,StandardMacroActions
+lib\resources.jar\idea\PlatformActions.xml,EditSource,,
+lib\resources.jar\idea\PlatformActions.xml,EditSourceInNewWindow,,
+lib\resources.jar\idea\PlatformActions.xml,EditorAddOrRemoveCaret,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorAddRectangularSelectionOnMouseDrag,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorBackSpace,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorBackwardParagraph,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorCloneCaretAbove,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorCloneCaretBelow,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorCopy,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorCreateRectangularSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorCut,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorCutLineBackward,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorCutLineEnd,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorDecreaseFontSize,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorDelete,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorDeleteLine,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorDeleteToLineEnd,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorDeleteToLineStart,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorDeleteToWordEnd,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorDeleteToWordEndInDifferentHumpsMode,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorDeleteToWordStart,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorDeleteToWordStartInDifferentHumpsMode,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorDown,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorDownWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorDuplicate,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorDuplicateLines,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorEnter,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorEscape,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorForwardParagraph,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorGutterToggleGlobalIndentLines,,EditorGutterPopupMenu
+lib\resources.jar\idea\PlatformActions.xml,EditorGutterToggleGlobalLineNumbers,,EditorGutterPopupMenu
+lib\resources.jar\idea\PlatformActions.xml,EditorGutterToggleGlobalSoftWraps,,EditorGutterPopupMenu
+lib\resources.jar\idea\PlatformActions.xml,EditorHungryBackSpace,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorIncreaseFontSize,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorJoinLines,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorKillRegion,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorKillRingSave,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorKillToWordEnd,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorKillToWordStart,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorLeft,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorLeftWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorLineEnd,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorLineEndWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorLineStart,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorLineStartWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorMoveDownAndScroll,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorMoveDownAndScrollWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorMoveToPageBottom,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorMoveToPageBottomWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorMoveToPageTop,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorMoveToPageTopWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorMoveUpAndScroll,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorMoveUpAndScrollWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorNextWord,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorNextWordInDifferentHumpsMode,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorNextWordInDifferentHumpsModeWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorNextWordWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorPageDown,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorPageDownWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorPageUp,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorPageUpWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorPaste,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorPasteFromX11,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorPasteSimple,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorPreviousWord,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorPreviousWordInDifferentHumpsMode,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorPreviousWordInDifferentHumpsModeWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorPreviousWordWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorResetFontSize,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorRight,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorRightWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorScrollBottom,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorScrollDown,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorScrollDownAndMove,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorScrollLeft,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorScrollRight,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorScrollToCenter,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorScrollTop,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorScrollUp,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorScrollUpAndMove,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorSelectLine,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorSplitLine,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorStartNewLine,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorStartNewLineBefore,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorSwapSelectionBoundaries,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorTab,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorTextEnd,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorTextEndWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorTextStart,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorTextStartWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorToggleCase,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorToggleColumnMode,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorToggleInsertState,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorToggleShowGutterIcons,,EditorToggleActions
+lib\resources.jar\idea\PlatformActions.xml,EditorToggleShowIndentLines,,EditorToggleActions
+lib\resources.jar\idea\PlatformActions.xml,EditorToggleShowLineNumbers,,EditorToggleActions
+lib\resources.jar\idea\PlatformActions.xml,EditorToggleShowWhitespaces,,EditorToggleActions
+lib\resources.jar\idea\PlatformActions.xml,EditorToggleStickySelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorToggleUseSoftWraps,,EditorToggleActions
+lib\resources.jar\idea\PlatformActions.xml,EditorToggleUseSoftWrapsInPreview,,EditorContextBarMenu
+lib\resources.jar\idea\PlatformActions.xml,EditorUnindentSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorUp,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,EditorUpWithSelection,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,Exit,,
+lib\resources.jar\idea\PlatformActions.xml,ExpandAll,,
+lib\resources.jar\idea\PlatformActions.xml,ExpandTreeNode,,
+lib\resources.jar\idea\PlatformActions.xml,ExportSettings,,ExportImportGroup
+lib\resources.jar\idea\PlatformActions.xml,ExportTestResults,,
+lib\resources.jar\idea\PlatformActions.xml,ExportToTextFile,,
+lib\resources.jar\idea\PlatformActions.xml,FileChooser.Delete,,FileChooserToolbar
+lib\resources.jar\idea\PlatformActions.xml,FileChooser.GotoDesktop,,FileChooserToolbar
+lib\resources.jar\idea\PlatformActions.xml,FileChooser.GotoHome,,FileChooserToolbar
+lib\resources.jar\idea\PlatformActions.xml,FileChooser.GotoProject,,FileChooserToolbar
+lib\resources.jar\idea\PlatformActions.xml,FileChooser.NewFile,,FileChooserToolbar
+lib\resources.jar\idea\PlatformActions.xml,FileChooser.NewFolder,,FileChooserToolbar
+lib\resources.jar\idea\PlatformActions.xml,FileChooser.Refresh,,FileChooserToolbar
+lib\resources.jar\idea\PlatformActions.xml,FileChooser.ShowHiddens,,FileChooserToolbar
+lib\resources.jar\idea\PlatformActions.xml,FileChooser.TogglePathShowing,,FileChooser
+lib\resources.jar\idea\PlatformActions.xml,FillParagraph,,EditorActions
+lib\resources.jar\idea\PlatformActions.xml,Find,,FindMenuGroup
+lib\resources.jar\idea\PlatformActions.xml,FindInPath,,FindMenuGroup
+lib\resources.jar\idea\PlatformActions.xml,FindNext,,FindMenuGroup
+lib\resources.jar\idea\PlatformActions.xml,FindPrevious,,FindMenuGroup
+lib\resources.jar\idea\PlatformActions.xml,FindUsages,,FindMenuGroup
+lib\resources.jar\idea\PlatformActions.xml,FindUsagesInFile,,FindMenuGroup
+lib\resources.jar\idea\PlatformActions.xml,FindWordAtCaret,,FindMenuGroup
+lib\resources.jar\idea\PlatformActions.xml,FocusDebugger,Start Focus Debugger,
+lib\resources.jar\idea\PlatformActions.xml,FocusTracer,Start Focus Trace,
+lib\resources.jar\idea\PlatformActions.xml,Forward,,GoToMenu
+lib\resources.jar\idea\PlatformActions.xml,FullyExpandTreeNode,,
+lib\resources.jar\idea\PlatformActions.xml,GotoAction,,HelpMenu
+lib\resources.jar\idea\PlatformActions.xml,GotoChangedFile,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,GotoLine,,GoToMenu
+lib\resources.jar\idea\PlatformActions.xml,Help.JetBrainsTV,,HelpMenu
+lib\resources.jar\idea\PlatformActions.xml,Help.KeymapReference,,HelpMenu
+lib\resources.jar\idea\PlatformActions.xml,HelpTopics,,HelpMenu
+lib\resources.jar\idea\PlatformActions.xml,HideActiveWindow,,ActiveToolwindowGroup
+lib\resources.jar\idea\PlatformActions.xml,HideAllWindows,,ActiveToolwindowGroup
+lib\resources.jar\idea\PlatformActions.xml,HideSideWindows,,ActiveToolwindowGroup
+lib\resources.jar\idea\PlatformActions.xml,HighlightUsagesInFile,,FindMenuGroup
+lib\resources.jar\idea\PlatformActions.xml,ImageDuplicates,Find Image Duplicates,
+lib\resources.jar\idea\PlatformActions.xml,ImportSettings,,ExportImportGroup
+lib\resources.jar\idea\PlatformActions.xml,IncrementWindowHeight,,
+lib\resources.jar\idea\PlatformActions.xml,IncrementWindowWidth,,
+lib\resources.jar\idea\PlatformActions.xml,InvalidateCaches,,
+lib\resources.jar\idea\PlatformActions.xml,JumpToLastChange,,GoToMenu
+lib\resources.jar\idea\PlatformActions.xml,JumpToLastWindow,,ActiveToolwindowGroup
+lib\resources.jar\idea\PlatformActions.xml,JumpToNextChange,,GoToMenu
+lib\resources.jar\idea\PlatformActions.xml,LaggingMode,Lagging mode,
+lib\resources.jar\idea\PlatformActions.xml,LogDebugConfigure,,HelpMenu
+lib\resources.jar\idea\PlatformActions.xml,MacMessagesSequencesTest,Test Mac Messages Sequences,Internal.focusAndModality
+lib\resources.jar\idea\PlatformActions.xml,MacMessagesTest,Test Mac Messages,
+lib\resources.jar\idea\PlatformActions.xml,MaintenanceAction,,
+lib\resources.jar\idea\PlatformActions.xml,ManageRecentProjects,,
+lib\resources.jar\idea\PlatformActions.xml,ManualMacMessagesTest,Manual test for testing MacMessages,Internal.focusAndModality
+lib\resources.jar\idea\PlatformActions.xml,MarkNotificationsAsRead,,
+lib\resources.jar\idea\PlatformActions.xml,MaximizeToolWindow,,ActiveToolwindowGroup
+lib\resources.jar\idea\PlatformActions.xml,MinimizeCurrentWindow,,WindowMenu
+lib\resources.jar\idea\PlatformActions.xml,MoveEditorToOppositeTabGroup,,EditorTabPopupMenu
+lib\resources.jar\idea\PlatformActions.xml,MoveTabDown,,
+lib\resources.jar\idea\PlatformActions.xml,MoveTabRight,,
+lib\resources.jar\idea\PlatformActions.xml,NewDummyProject,New Dummy Project,FileOpenGroup
+lib\resources.jar\idea\PlatformActions.xml,NextDiff,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,NextEditorTab,,
+lib\resources.jar\idea\PlatformActions.xml,NextOccurence,,GoToMenu
+lib\resources.jar\idea\PlatformActions.xml,NextProjectWindow,,OpenProjectWindows
+lib\resources.jar\idea\PlatformActions.xml,NextSplitter,,
+lib\resources.jar\idea\PlatformActions.xml,NextTab,,EditorTabsGroup
+lib\resources.jar\idea\PlatformActions.xml,NextTemplateParameter,Next Parameter,TemplateParametersNavigation
+lib\resources.jar\idea\PlatformActions.xml,NotificationTestAction,Add Test Notification,Internal.UI
+lib\resources.jar\idea\PlatformActions.xml,OnlineDocAction,,HelpMenu
+lib\resources.jar\idea\PlatformActions.xml,OpenEditorInOppositeTabGroup,,EditorTabPopupMenu
+lib\resources.jar\idea\PlatformActions.xml,OpenFile,,FileOpenGroup
+lib\resources.jar\idea\PlatformActions.xml,PasteMultiple,,CutCopyPasteGroup
+lib\resources.jar\idea\PlatformActions.xml,PinActiveEditorTab,,EditorTabsGroup
+lib\resources.jar\idea\PlatformActions.xml,PinActiveTab,,
+lib\resources.jar\idea\PlatformActions.xml,PinToolwindowTab,,ActiveToolwindowGroup
+lib\resources.jar\idea\PlatformActions.xml,PlaySavedMacrosAction,,StandardMacroActions
+lib\resources.jar\idea\PlatformActions.xml,PlaybackLastMacro,,StandardMacroActions
+lib\resources.jar\idea\PlatformActions.xml,PrevSplitter,,
+lib\resources.jar\idea\PlatformActions.xml,PrevTemplateParameter,Previous Parameter,TemplateParametersNavigation
+lib\resources.jar\idea\PlatformActions.xml,PreviousDiff,,Diff.KeymapGroup
+lib\resources.jar\idea\PlatformActions.xml,PreviousEditorTab,,
+lib\resources.jar\idea\PlatformActions.xml,PreviousOccurence,,GoToMenu
+lib\resources.jar\idea\PlatformActions.xml,PreviousProjectWindow,,OpenProjectWindows
+lib\resources.jar\idea\PlatformActions.xml,PreviousTab,,EditorTabsGroup
+lib\resources.jar\idea\PlatformActions.xml,ProductivityGuide,,HelpMenu
+lib\resources.jar\idea\PlatformActions.xml,PsiViewer,,ToolsMenu
+lib\resources.jar\idea\PlatformActions.xml,PsiViewerForContext,,ToolsMenu
+lib\resources.jar\idea\PlatformActions.xml,QuickChangeScheme,,
+lib\resources.jar\idea\PlatformActions.xml,QuickDocCopy,Copy Quick Doc,
+lib\resources.jar\idea\PlatformActions.xml,RecentChangedFiles,,ViewRecentActions
+lib\resources.jar\idea\PlatformActions.xml,RecentFiles,,ViewRecentActions
+lib\resources.jar\idea\PlatformActions.xml,Refresh,,
+lib\resources.jar\idea\PlatformActions.xml,ReloadProjectAction,,
+lib\resources.jar\idea\PlatformActions.xml,ReopenClosedTab,,
+lib\resources.jar\idea\PlatformActions.xml,Replace,,FindMenuGroup
+lib\resources.jar\idea\PlatformActions.xml,ReplaceInPath,,FindMenuGroup
+lib\resources.jar\idea\PlatformActions.xml,Rerun,Rerun,
+lib\resources.jar\idea\PlatformActions.xml,RerunTests,Rerun Tests,
+lib\resources.jar\idea\PlatformActions.xml,ResizeToolWindowDown,,ResizeToolWindowGroup
+lib\resources.jar\idea\PlatformActions.xml,ResizeToolWindowLeft,,ResizeToolWindowGroup
+lib\resources.jar\idea\PlatformActions.xml,ResizeToolWindowRight,,ResizeToolWindowGroup
+lib\resources.jar\idea\PlatformActions.xml,ResizeToolWindowUp,,ResizeToolWindowGroup
+lib\resources.jar\idea\PlatformActions.xml,RestoreDefaultLayout,,WindowMenu
+lib\resources.jar\idea\PlatformActions.xml,RunGc,,
+lib\resources.jar\idea\PlatformActions.xml,SaveAll,,
+lib\resources.jar\idea\PlatformActions.xml,SaveDocument,,
+lib\resources.jar\idea\PlatformActions.xml,ScrollPane-scrollDown,Scroll Page Down,ScrollPaneActions
+lib\resources.jar\idea\PlatformActions.xml,ScrollPane-scrollEnd,Scroll End,ScrollPaneActions
+lib\resources.jar\idea\PlatformActions.xml,ScrollPane-scrollHome,Scroll Home,ScrollPaneActions
+lib\resources.jar\idea\PlatformActions.xml,ScrollPane-scrollLeft,Scroll Page Left,ScrollPaneActions
+lib\resources.jar\idea\PlatformActions.xml,ScrollPane-scrollRight,Scroll Page Right,ScrollPaneActions
+lib\resources.jar\idea\PlatformActions.xml,ScrollPane-scrollUp,Scroll Page Up,ScrollPaneActions
+lib\resources.jar\idea\PlatformActions.xml,ScrollPane-unitScrollDown,Scroll Down,ScrollPaneActions
+lib\resources.jar\idea\PlatformActions.xml,ScrollPane-unitScrollLeft,Scroll Left,ScrollPaneActions
+lib\resources.jar\idea\PlatformActions.xml,ScrollPane-unitScrollRight,Scroll Right,ScrollPaneActions
+lib\resources.jar\idea\PlatformActions.xml,ScrollPane-unitScrollUp,Scroll Up,ScrollPaneActions
+lib\resources.jar\idea\PlatformActions.xml,ScrollTreeToCenter,Scroll to Center,
+lib\resources.jar\idea\PlatformActions.xml,SearchEverywhere,,
+lib\resources.jar\idea\PlatformActions.xml,SelectAllOccurrences,,FindMenuGroup
+lib\resources.jar\idea\PlatformActions.xml,SelectNextOccurrence,,FindMenuGroup
+lib\resources.jar\idea\PlatformActions.xml,SendFeedback,,HelpMenu
+lib\resources.jar\idea\PlatformActions.xml,SendStatistics,Send Statistics,
+lib\resources.jar\idea\PlatformActions.xml,ShowColorPicker,Show Color Picker,
+lib\resources.jar\idea\PlatformActions.xml,ShowContent,,ActiveToolwindowGroup
+lib\resources.jar\idea\PlatformActions.xml,ShowDelayedMessageInternalAction,Show Delayed Message,Internal.focusAndModality
+lib\resources.jar\idea\PlatformActions.xml,ShowLog,,HelpMenu
+lib\resources.jar\idea\PlatformActions.xml,ShowNonRetinaImages,Show Non Retina Images,
+lib\resources.jar\idea\PlatformActions.xml,ShowPopupMenu,,
+lib\resources.jar\idea\PlatformActions.xml,ShowProcessWindow,,BackgroundTasks
+lib\resources.jar\idea\PlatformActions.xml,ShowRegistry,,MaintenanceGroup
+lib\resources.jar\idea\PlatformActions.xml,ShowSettings,,FileMainSettingsGroup
+lib\resources.jar\idea\PlatformActions.xml,ShowSettingsAndFindUsages,,FindMenuGroup
+lib\resources.jar\idea\PlatformActions.xml,ShowSplash,Show Splash,
+lib\resources.jar\idea\PlatformActions.xml,ShowTabsInSingleRow,Show Tabs In Single Row,TabsPlacementGroup
+lib\resources.jar\idea\PlatformActions.xml,ShowTips,,HelpMenu
+lib\resources.jar\idea\PlatformActions.xml,ShowUsages,,FindMenuGroup
+lib\resources.jar\idea\PlatformActions.xml,SplitHorizontally,,
+lib\resources.jar\idea\PlatformActions.xml,SplitVertically,,
+lib\resources.jar\idea\PlatformActions.xml,StartStopMacroRecording,,StandardMacroActions
+lib\resources.jar\idea\PlatformActions.xml,StoreDefaultLayout,,WindowMenu
+lib\resources.jar\idea\PlatformActions.xml,SwitchApply,Switching Apply,SwitchViewActions
+lib\resources.jar\idea\PlatformActions.xml,SwitchBootJdk,,MaintenanceGroup
+lib\resources.jar\idea\PlatformActions.xml,SwitchDown,Switching Down,SwitchViewActions
+lib\resources.jar\idea\PlatformActions.xml,SwitchLeft,Switching Left,SwitchViewActions
+lib\resources.jar\idea\PlatformActions.xml,SwitchRight,Switching Right,SwitchViewActions
+lib\resources.jar\idea\PlatformActions.xml,SwitchUp,Switching Up,SwitchViewActions
+lib\resources.jar\idea\PlatformActions.xml,Switcher,Switcher,
+lib\resources.jar\idea\PlatformActions.xml,Synchronize,,
+lib\resources.jar\idea\PlatformActions.xml,TabList,,EditorTabsGroup
+lib\resources.jar\idea\PlatformActions.xml,TabsAlphabeticalMode,Sort Tabs By Filename,
+lib\resources.jar\idea\PlatformActions.xml,TabsPlacementBottom,Bottom,TabsPlacementGroup
+lib\resources.jar\idea\PlatformActions.xml,TabsPlacementLeft,Left,TabsPlacementGroup
+lib\resources.jar\idea\PlatformActions.xml,TabsPlacementNone,None,TabsPlacementGroup
+lib\resources.jar\idea\PlatformActions.xml,TabsPlacementRight,Right,TabsPlacementGroup
+lib\resources.jar\idea\PlatformActions.xml,TabsPlacementTop,Top,TabsPlacementGroup
+lib\resources.jar\idea\PlatformActions.xml,TechnicalSupport,,HelpMenu
+lib\resources.jar\idea\PlatformActions.xml,TemplateProjectProperties,,FileOtherSettingsGroup
+lib\resources.jar\idea\PlatformActions.xml,TestDndAction,Test Dnd,
+lib\resources.jar\idea\PlatformActions.xml,TestGestureAction,Test Gesture Action,
+lib\resources.jar\idea\PlatformActions.xml,TestMessageBoxAction,Show Test Dialog,Internal.UI
+lib\resources.jar\idea\PlatformActions.xml,TextComponent.ClearAction,,
+lib\resources.jar\idea\PlatformActions.xml,ToggleContentUiTypeMode,,ActiveToolwindowGroup
+lib\resources.jar\idea\PlatformActions.xml,ToggleDistractionFreeMode,,ToggleFullScreenGroup
+lib\resources.jar\idea\PlatformActions.xml,ToggleDockMode,,ActiveToolwindowGroup
+lib\resources.jar\idea\PlatformActions.xml,ToggleFloatingMode,,ActiveToolwindowGroup
+lib\resources.jar\idea\PlatformActions.xml,ToggleFullScreen,,ToggleFullScreenGroup
+lib\resources.jar\idea\PlatformActions.xml,TogglePinnedMode,,ActiveToolwindowGroup
+lib\resources.jar\idea\PlatformActions.xml,TogglePresentationMode,,ToggleFullScreenGroup
+lib\resources.jar\idea\PlatformActions.xml,ToggleReadOnlyAttribute,,
+lib\resources.jar\idea\PlatformActions.xml,ToggleSideMode,,ActiveToolwindowGroup
+lib\resources.jar\idea\PlatformActions.xml,ToggleWindowedMode,,ActiveToolwindowGroup
+lib\resources.jar\idea\PlatformActions.xml,TreeExpandAll,Expand Tree,
+lib\resources.jar\idea\PlatformActions.xml,UIDefaults,LaF Defaults,
+lib\resources.jar\idea\PlatformActions.xml,UiDebugger,,MaintenanceGroup
+lib\resources.jar\idea\PlatformActions.xml,UiInspector,UI &Inspector,
+lib\resources.jar\idea\PlatformActions.xml,UnselectPreviousOccurrence,,FindMenuGroup
+lib\resources.jar\idea\PlatformActions.xml,Unsplit,,
+lib\resources.jar\idea\PlatformActions.xml,UnsplitAll,,
+lib\resources.jar\idea\PlatformActions.xml,ValidationTest,Validation Dialog Test,
+lib\resources.jar\idea\PlatformActions.xml,ViewSource,,
+lib\resources.jar\idea\PlatformActions.xml,ViewStatusBar,,UIToggleActions
+lib\resources.jar\idea\PlatformActions.xml,ViewToolBar,,UIToggleActions
+lib\resources.jar\idea\PlatformActions.xml,ViewToolButtons,,UIToggleActions
+lib\resources.jar\idea\PlatformActions.xml,WelcomeScreen.ChangeProjectIcon,Change Icon,
+lib\resources.jar\idea\PlatformActions.xml,WelcomeScreen.Configure.DesktopEntry,,WelcomeScreen.Configure
+lib\resources.jar\idea\PlatformActions.xml,WelcomeScreen.Configure.Export,,WelcomeScreen.Configure
+lib\resources.jar\idea\PlatformActions.xml,WelcomeScreen.Configure.Import,,WelcomeScreen.Configure
+lib\resources.jar\idea\PlatformActions.xml,WelcomeScreen.EditGroup,Edit...,WelcomeScreenRecentProjectActionGroup
+lib\resources.jar\idea\PlatformActions.xml,WelcomeScreen.NewGroup,New Project Group,WelcomeScreenRecentProjectActionGroup
+lib\resources.jar\idea\PlatformActions.xml,WelcomeScreen.OpenSelected,Open Selected,WelcomeScreenRecentProjectActionGroup
+lib\resources.jar\idea\PlatformActions.xml,WelcomeScreen.Plugins,,WelcomeScreen.Configure
+lib\resources.jar\idea\PlatformActions.xml,WelcomeScreen.RemoveSelected,Remove Selected from Welcome Screen,
+lib\resources.jar\idea\PlatformActions.xml,WelcomeScreen.Settings,,WelcomeScreen.Configure
+lib\resources.jar\idea\PlatformActions.xml,WelcomeScreen.Update,Check for Update,WelcomeScreen.Configure
+lib\resources.jar\idea\PlatformActions.xml,ZoomCurrentWindow,,WindowMenu
+lib\resources.jar\idea\RichPlatformActions.xml,AddFrameworkSupport,,
+lib\resources.jar\idea\RichPlatformActions.xml,AnalyzeStacktraceOnError,Analyze _Stacktrace,
+lib\resources.jar\idea\RichPlatformActions.xml,BuildArtifact,,BuildMenu
+lib\resources.jar\idea\RichPlatformActions.xml,CheckVfsSanity,Check VFS sanity,Internal.VFS
+lib\resources.jar\idea\RichPlatformActions.xml,CodeCleanup,,InspectCodeGroup
+lib\resources.jar\idea\RichPlatformActions.xml,Compile,,BuildMenu
+lib\resources.jar\idea\RichPlatformActions.xml,CompileDirty,,BuildMenu
+lib\resources.jar\idea\RichPlatformActions.xml,CompileProject,,BuildMenu
+lib\resources.jar\idea\RichPlatformActions.xml,ComputeVFStatistics,,Internal.VFS
+lib\resources.jar\idea\RichPlatformActions.xml,ConsoleView.FoldLinesLikeThis,Fold Lines Like This,
+lib\resources.jar\idea\RichPlatformActions.xml,CreateLibraryFromFile,,
+lib\resources.jar\idea\RichPlatformActions.xml,DebugBuildProcess,,
+lib\resources.jar\idea\RichPlatformActions.xml,DecodeBytesAction,,Internal1
+lib\resources.jar\idea\RichPlatformActions.xml,DumpConfigurationTypes,,Internal.Dump
+lib\resources.jar\idea\RichPlatformActions.xml,DumpDirectoryIndex,,Internal.Dump
+lib\resources.jar\idea\RichPlatformActions.xml,DumpExtensions,Dump Extensions,Internal.Dump
+lib\resources.jar\idea\RichPlatformActions.xml,DumpInspectionDescriptions,,Internal.Dump
+lib\resources.jar\idea\RichPlatformActions.xml,DumpIntentionsDescriptions,,Internal.Dump
+lib\resources.jar\idea\RichPlatformActions.xml,DumpScreenConfiguration,Dump Screen Configuration,Internal.Dump
+lib\resources.jar\idea\RichPlatformActions.xml,DumpVfsInfoForExcludedFiles,,Internal.VFS
+lib\resources.jar\idea\RichPlatformActions.xml,EditorChooseLookupItem,,LookupActions
+lib\resources.jar\idea\RichPlatformActions.xml,EditorChooseLookupItemCompleteStatement,,LookupActions
+lib\resources.jar\idea\RichPlatformActions.xml,EditorChooseLookupItemDot,,LookupActions
+lib\resources.jar\idea\RichPlatformActions.xml,EditorChooseLookupItemReplace,,LookupActions
+lib\resources.jar\idea\RichPlatformActions.xml,EditorIndentSelection,,
+lib\resources.jar\idea\RichPlatformActions.xml,EditorLookupDown,,
+lib\resources.jar\idea\RichPlatformActions.xml,EditorLookupUp,,
+lib\resources.jar\idea\RichPlatformActions.xml,ExcludeFromValidation,,CompilerErrorViewPopupMenu
+lib\resources.jar\idea\RichPlatformActions.xml,ExpandLiveTemplateByTab,,LookupActions
+lib\resources.jar\idea\RichPlatformActions.xml,ExpandLiveTemplateCustom,,LookupActions
+lib\resources.jar\idea\RichPlatformActions.xml,FileChooser.GotoModule,,
+lib\resources.jar\idea\RichPlatformActions.xml,FixLineSeparators,Fix Line Separators,Internal.VFS
+lib\resources.jar\idea\RichPlatformActions.xml,GenerateAntBuild,,BuildMenu
+lib\resources.jar\idea\RichPlatformActions.xml,ImportModule,Module from Existing Sources...,
+lib\resources.jar\idea\RichPlatformActions.xml,ImportModuleFromImlFile,,
+lib\resources.jar\idea\RichPlatformActions.xml,ImportProject,Project from Existing Sources...,NewProjectOrModuleGroup
+lib\resources.jar\idea\RichPlatformActions.xml,InspectCode,,InspectCodeGroup
+lib\resources.jar\idea\RichPlatformActions.xml,LoadAllContent,Load All Files Content,Internal.VFS
+lib\resources.jar\idea\RichPlatformActions.xml,LoadAllVFSContent,Load All VFS Stored Files Content,Internal.VFS
+lib\resources.jar\idea\RichPlatformActions.xml,MakeModule,,BuildMenu
+lib\resources.jar\idea\RichPlatformActions.xml,MarkExcludeRoot,,
+lib\resources.jar\idea\RichPlatformActions.xml,MarkFileDirty,Mark File Dirty,Internal.VFS
+lib\resources.jar\idea\RichPlatformActions.xml,Merge3Files,,Internal1
+lib\resources.jar\idea\RichPlatformActions.xml,ModuleSettings,,
+lib\resources.jar\idea\RichPlatformActions.xml,NewElement,,
+lib\resources.jar\idea\RichPlatformActions.xml,NewModule,Module...,
+lib\resources.jar\idea\RichPlatformActions.xml,NewModuleInGroup,,NewGroup1
+lib\resources.jar\idea\RichPlatformActions.xml,NewProject,Project...,NewProjectOrModuleGroup
+lib\resources.jar\idea\RichPlatformActions.xml,NextParameter,,LookupActions
+lib\resources.jar\idea\RichPlatformActions.xml,NextTemplateVariable,,LookupActions
+lib\resources.jar\idea\RichPlatformActions.xml,OpenModuleSettings,,
+lib\resources.jar\idea\RichPlatformActions.xml,PackageFile,,
+lib\resources.jar\idea\RichPlatformActions.xml,PopupHector,,InspectCodeGroup
+lib\resources.jar\idea\RichPlatformActions.xml,PrevParameter,,LookupActions
+lib\resources.jar\idea\RichPlatformActions.xml,PreviousTemplateVariable,,LookupActions
+lib\resources.jar\idea\RichPlatformActions.xml,PruneEmptyDirectories,Prune Empty Directories,Internal.VFS
+lib\resources.jar\idea\RichPlatformActions.xml,RerunFailedTests,,
+lib\resources.jar\idea\RichPlatformActions.xml,RunInspection,,InspectCodeGroup
+lib\resources.jar\idea\RichPlatformActions.xml,SaveAsNewFormat,Save as Directory-Based Format...,
+lib\resources.jar\idea\RichPlatformActions.xml,ScanSourceCommentsAction,Dump All Comments In Project,Internal.Dump
+lib\resources.jar\idea\RichPlatformActions.xml,Testing.SelectInTree,Select in Tree,TestStatisticsTablePopupMenu
+lib\resources.jar\idea\RichPlatformActions.xml,UnmarkRoot,,
+lib\resources.jar\idea\RichPlatformActions.xml,ViewOfflineInspection,,InspectCodeGroup
+lib\resources.jar\idea\RichPlatformActions.xml,VirtualFileInfo,,Internal.VFS
+lib\resources.jar\idea\RichPlatformActions.xml,WelcomeScreen.CreateNewProject,,WelcomeScreen.QuickStart.IDEA
+lib\resources.jar\idea\RichPlatformActions.xml,WelcomeScreen.DevelopPlugins,,WelcomeScreen.Documentation.IDEA
+lib\resources.jar\idea\RichPlatformActions.xml,WelcomeScreen.ImportProject,,WelcomeScreen.QuickStart.IDEA
+lib\resources.jar\idea\RichPlatformActions.xml,WelcomeScreen.OpenProject,,WelcomeScreen.QuickStart.IDEA
+lib\resources.jar\idea\RichPlatformActions.xml,WhatsNewAction,,
+lib\resources.jar\idea\RichPlatformActions.xml,com.intellij.ide.actions.TemplateProjectSettingsGroup,,WelcomeScreen.Configure.IDEA
+lib\resources.jar\idea\RichPlatformActions.xml,com.intellij.platform.templates.ManageProjectTemplatesAction,Manage Project Templates...,
+lib\resources.jar\idea\RichPlatformActions.xml,com.intellij.platform.templates.SaveProjectAsTemplateAction,Save Project as Template...,
+lib\resources.jar\idea\VcsActions.xml,Annotate,,
+lib\resources.jar\idea\VcsActions.xml,AnnotateDiffViewer,,
+lib\resources.jar\idea\VcsActions.xml,ChangesView.AddUnversioned,,ChangesViewPopupMenu
+lib\resources.jar\idea\VcsActions.xml,ChangesView.AddUnversioned.From.Dialog,,Unversioned.Files.Dialog
+lib\resources.jar\idea\VcsActions.xml,ChangesView.ApplyPatch,,
+lib\resources.jar\idea\VcsActions.xml,ChangesView.ApplyPatchFromClipboard,,
+lib\resources.jar\idea\VcsActions.xml,ChangesView.Browse,,
+lib\resources.jar\idea\VcsActions.xml,ChangesView.Commit,,ChangesViewToolbar
+lib\resources.jar\idea\VcsActions.xml,ChangesView.CreatePatch,,
+lib\resources.jar\idea\VcsActions.xml,ChangesView.CreatePatchFromChanges,,ShelvedChangesPopupMenu
+lib\resources.jar\idea\VcsActions.xml,ChangesView.DeleteUnversioned,,ChangesViewPopupMenu
+lib\resources.jar\idea\VcsActions.xml,ChangesView.DeleteUnversioned.From.Dialog,,Unversioned.Files.Dialog
+lib\resources.jar\idea\VcsActions.xml,ChangesView.Diff,,ChangesViewToolbar
+lib\resources.jar\idea\VcsActions.xml,ChangesView.Edit,,ChangesViewPopupMenu
+lib\resources.jar\idea\VcsActions.xml,ChangesView.Ignore,,ChangesViewPopupMenu
+lib\resources.jar\idea\VcsActions.xml,ChangesView.Move,,ChangesViewToolbar
+lib\resources.jar\idea\VcsActions.xml,ChangesView.NewChangeList,,ChangesViewToolbar
+lib\resources.jar\idea\VcsActions.xml,ChangesView.Refresh,,ChangesViewToolbar
+lib\resources.jar\idea\VcsActions.xml,ChangesView.RemoveChangeList,,ChangesViewToolbar
+lib\resources.jar\idea\VcsActions.xml,ChangesView.RemoveDeleted,,ChangesViewPopupMenu
+lib\resources.jar\idea\VcsActions.xml,ChangesView.Rename,,ChangesViewPopupMenu
+lib\resources.jar\idea\VcsActions.xml,ChangesView.Revert,,
+lib\resources.jar\idea\VcsActions.xml,ChangesView.SetDefault,,ChangesViewToolbar
+lib\resources.jar\idea\VcsActions.xml,ChangesView.Shelve,,
+lib\resources.jar\idea\VcsActions.xml,CheckStatusForFiles,,
+lib\resources.jar\idea\VcsActions.xml,CheckinFiles,,
+lib\resources.jar\idea\VcsActions.xml,CheckinProject,,
+lib\resources.jar\idea\VcsActions.xml,CloseAllUnmodifiedEditors,,
+lib\resources.jar\idea\VcsActions.xml,CommittedChanges.Clear,,CommittedChangesToolbar
+lib\resources.jar\idea\VcsActions.xml,CommittedChanges.Details,,CommittedChangesToolbar
+lib\resources.jar\idea\VcsActions.xml,CommittedChanges.Filter,,CommittedChangesToolbar
+lib\resources.jar\idea\VcsActions.xml,CommittedChanges.Refresh,,CommittedChangesToolbar
+lib\resources.jar\idea\VcsActions.xml,CommittedChanges.Revert,,CommittedChangesToolbar
+lib\resources.jar\idea\VcsActions.xml,Compare.LastVersion,,
+lib\resources.jar\idea\VcsActions.xml,Compare.SameVersion,,
+lib\resources.jar\idea\VcsActions.xml,Compare.Selected,,
+lib\resources.jar\idea\VcsActions.xml,Compare.Specified,Com_pare with Specified Revision...,
+lib\resources.jar\idea\VcsActions.xml,Diff.NextChange,,
+lib\resources.jar\idea\VcsActions.xml,Diff.PrevChange,,
+lib\resources.jar\idea\VcsActions.xml,Diff.SelectedChange,,
+lib\resources.jar\idea\VcsActions.xml,Diff.UpdatedFiles,,UpdateActionGroup
+lib\resources.jar\idea\VcsActions.xml,IncomingChanges.Refresh,,IncomingChangesToolbar
+lib\resources.jar\idea\VcsActions.xml,IntegrateFiles,,
+lib\resources.jar\idea\VcsActions.xml,ShelveChanges.UnshelveWithDialog,Unshelve...,ShelvedChangesPopupMenu
+lib\resources.jar\idea\VcsActions.xml,ShelvedChanges.CleanMarkedToDelete,Clean Already Unshelved...,ShelvedChangesPopupMenu
+lib\resources.jar\idea\VcsActions.xml,ShelvedChanges.Diff,,ShelvedChangesPopupMenu
+lib\resources.jar\idea\VcsActions.xml,ShelvedChanges.ImportPatches,,ShelvedChangesPopupMenu
+lib\resources.jar\idea\VcsActions.xml,ShelvedChanges.Rename,,ShelvedChangesPopupMenu
+lib\resources.jar\idea\VcsActions.xml,ShelvedChanges.Restore,,ShelvedChangesPopupMenu
+lib\resources.jar\idea\VcsActions.xml,ShelvedChanges.ShowHideDeleted,,ShelvedChangesPopupMenu
+lib\resources.jar\idea\VcsActions.xml,Show.Current.Revision,Show Current Revision,
+lib\resources.jar\idea\VcsActions.xml,Start.Use.Vcs,,VcsGroups
+lib\resources.jar\idea\VcsActions.xml,UpdateFiles,,
+lib\resources.jar\idea\VcsActions.xml,Vcs.CheckCommitMessageSpelling,,Vcs.MessageActionGroup
+lib\resources.jar\idea\VcsActions.xml,Vcs.CopyRevisionNumberAction,Copy Revision Number,
+lib\resources.jar\idea\VcsActions.xml,Vcs.IntegrateProject,,VcsGlobalGroup
+lib\resources.jar\idea\VcsActions.xml,Vcs.QuickListPopupAction,VCS Operations Popup...,VcsGlobalGroup
+lib\resources.jar\idea\VcsActions.xml,Vcs.RefreshStatuses,,VcsGlobalGroup
+lib\resources.jar\idea\VcsActions.xml,Vcs.RollbackChangedLines,,
+lib\resources.jar\idea\VcsActions.xml,Vcs.Show.Local.Changes,Show Local Changes,Vcs.Show.Toolwindow.Tab
+lib\resources.jar\idea\VcsActions.xml,Vcs.Show.Shelf,Show Shelf,Vcs.Show.Toolwindow.Tab
+lib\resources.jar\idea\VcsActions.xml,Vcs.ShowDiffWithLocal,Compare with Local,
+lib\resources.jar\idea\VcsActions.xml,Vcs.ShowHistoryForBlock,,
+lib\resources.jar\idea\VcsActions.xml,Vcs.ShowHistoryForRevision,,
+lib\resources.jar\idea\VcsActions.xml,Vcs.ShowMessageHistory,,Vcs.MessageActionGroup
+lib\resources.jar\idea\VcsActions.xml,Vcs.ShowTabbedFileHistory,,
+lib\resources.jar\idea\VcsActions.xml,Vcs.UpdateProject,,VcsGlobalGroup
+lib\resources.jar\idea\VcsActions.xml,VcsHistory.ShowAllAffected,,Vcs.History
+lib\resources.jar\idea\VcsActions.xml,VcsShowCurrentChangeMarker,,
+lib\resources.jar\idea\VcsActions.xml,VcsShowNextChangeMarker,,GoToChangeMarkerGroup
+lib\resources.jar\idea\VcsActions.xml,VcsShowPrevChangeMarker,,GoToChangeMarkerGroup
+lib\resources.jar\idea\VcsActions.xml,WelcomeScreen.GetFromVcs,,

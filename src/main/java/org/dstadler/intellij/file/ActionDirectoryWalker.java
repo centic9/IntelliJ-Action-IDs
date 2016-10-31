@@ -1,7 +1,6 @@
 package org.dstadler.intellij.file;
 
-import com.google.common.collect.HashMultimap;
-import com.google.common.collect.Multimap;
+import com.google.common.collect.*;
 import org.apache.commons.io.DirectoryWalker;
 import org.dstadler.commons.zip.ZipUtils;
 import org.dstadler.intellij.xml.ActionIDDef;
@@ -13,9 +12,9 @@ import java.util.Collections;
 
 
 public class ActionDirectoryWalker extends DirectoryWalker<File> {
-	private Multimap<String, ActionIDDef> idsPerFile = HashMultimap.create();
+	private SortedSetMultimap<String, ActionIDDef> idsPerFile = TreeMultimap.create(Ordering.natural(), Ordering.natural());
 
-	public Multimap<String, ActionIDDef> walk(File startPath) throws IOException {
+	public SortedSetMultimap<String, ActionIDDef> walk(File startPath) throws IOException {
 		// we can also start with a Zip-file...
 		if(startPath.isDirectory()) {
 			walk(startPath, Collections.emptyList());

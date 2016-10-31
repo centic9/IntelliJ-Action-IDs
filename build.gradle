@@ -24,6 +24,7 @@ repositories {
 dependencies {
     compile 'org.apache.commons:commons-lang3:3.4'
     compile 'org.dstadler:commons-dost:1.0.0.20'
+    compile 'org.apache.commons:commons-csv:1.4'
 
     testCompile 'junit:junit:[4.12,)'
 }

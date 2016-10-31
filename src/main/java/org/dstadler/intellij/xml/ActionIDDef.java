@@ -11,7 +11,7 @@ import java.util.Collection;
 /**
  * Information about a single ActionID in IntelliJ
  */
-public class ActionIDDef {
+public class ActionIDDef implements Comparable<ActionIDDef> {
     private String id;
     private String text;
     private String group;
@@ -79,5 +79,10 @@ public class ActionIDDef {
                 ", text='" + text + '\'' +
                 ", group='" + group + '\'' +
                 '}';
+    }
+
+    @Override
+    public int compareTo(ActionIDDef o) {
+        return id.compareTo(o.id);
     }
 }
