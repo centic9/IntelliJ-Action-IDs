@@ -1,6 +1,8 @@
 package org.dstadler.intellij;
 
 import com.google.common.collect.Multimap;
+import org.dstadler.intellij.file.ActionDirectoryWalker;
+import org.dstadler.intellij.xml.ActionIDDef;
 
 import java.io.File;
 import java.io.IOException;

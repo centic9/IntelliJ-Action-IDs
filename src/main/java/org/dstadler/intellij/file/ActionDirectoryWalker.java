@@ -1,9 +1,10 @@
-package org.dstadler.intellij;
+package org.dstadler.intellij.file;
 
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
 import org.apache.commons.io.DirectoryWalker;
 import org.dstadler.commons.zip.ZipUtils;
+import org.dstadler.intellij.xml.ActionIDDef;
 
 import java.io.File;
 import java.io.IOException;

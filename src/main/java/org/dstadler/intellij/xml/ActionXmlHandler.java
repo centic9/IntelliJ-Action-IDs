@@ -1,4 +1,4 @@
-package org.dstadler.intellij;
+package org.dstadler.intellij.xml;
 
 import org.dstadler.commons.xml.AbstractSimpleContentHandler;
 import org.xml.sax.Attributes;
