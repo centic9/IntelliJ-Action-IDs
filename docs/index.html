@@ -5,7 +5,52 @@ title: List of ActionIDs
 <html>
 <head>
     {{ page.title }}
+
+    <style type="text/css" xml:space="preserve">
+          table.actions td, table.actions th {
+          padding: 0.25em 1em;
+          }
+          table.actions {
+          margin-bottom: 2em;
+          }
+          th.group {
+          text-align: center;
+          background-color: #fc3;
+          }
+          h1 {
+          font-family: sans-serif;
+          }
+          .main-id {
+            font-weight: bold;
+          }
+          .parent-id {
+            font-weight: normal;
+            color: #340;
+          }
+        </style>
 </head>
 <body>
-Testing... asdf
+A list of ActionIDs found in IntelliJ 2016.2.5, styled after the outdated list at http://keithlea.com/idea-actions/
+
+See https://github.com/centic9/IntelliJ-Action-IDs for the sources of this page.
+
+<table class="actions" cellspacing="0" border="1">
+    <thead>
+    <tr>
+        <th class="group">File</th>
+        <th class="group">ID</th>
+        <th class="group">Description</th>
+        <th class="group">Group</th>
+    </tr>
+    </thead>
+    {% for action in site.data.actions %}
+    <tr>
+        <td title="{{ action.text }}">{{ action.file }}</td>
+        <td title="{{ action.text }}">{{ action.id }}</td>
+        <td title="{{ action.text }}">{{ action.text }}</td>
+        <td title="{{ action.text }}">{{ action.group }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
 </body>
