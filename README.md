@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/centic9/IntelliJ-Action-IDs.svg)](https://travis-ci.org/centic9/IntelliJ-Action-IDs) [![Gradle Status](https://gradleupdate.appspot.com/centic9/IntelliJ-Action-IDs/status.svg?branch=master)](https://gradleupdate.appspot.com/centic9/IntelliJ-Action-IDs/status)
+[![Release](https://img.shields.io/github/release/centic9/IntelliJ-Action-IDs.svg)](https://github.com/centic9/IntelliJ-Action-IDs/releases)
+
 A small tool to search an installation of IntelliJ for any XML file and extract a list of action-ids that can be used in
 plugins.
 
