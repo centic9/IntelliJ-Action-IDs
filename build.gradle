@@ -22,11 +22,12 @@ repositories {
 }
 
 dependencies {
-    compile 'org.apache.commons:commons-lang3:3.4'
-    compile 'org.dstadler:commons-dost:1.0.0.20'
+    compile 'org.apache.commons:commons-lang3:3.5'
+    compile 'org.dstadler:commons-dost:1.0.0.22'
     compile 'org.apache.commons:commons-csv:1.4'
+    compile 'com.google.guava:guava:21.0'
 
-    testCompile 'junit:junit:[4.12,)'
+    testCompile 'junit:junit:4.12'
 }
 
 task wrapper(type: Wrapper) {
@@ -44,5 +45,5 @@ test {
 }
 
 jacoco {
-    toolVersion = '0.7.7.201606060606'
+    toolVersion = '0.7.8'
 }
