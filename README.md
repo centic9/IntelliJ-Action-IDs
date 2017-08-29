@@ -30,7 +30,7 @@ requests or create [issues](https://github.com/centic9/IntelliJ-Action-IDs/issue
 
 ### Licensing
 
-   Copyright 2013-2016 Dominik Stadler
+   Copyright 2013-2017 Dominik Stadler
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
