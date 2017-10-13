@@ -1,23 +1,26 @@
 [![Build Status](https://travis-ci.org/centic9/IntelliJ-Action-IDs.svg)](https://travis-ci.org/centic9/IntelliJ-Action-IDs) [![Gradle Status](https://gradleupdate.appspot.com/centic9/IntelliJ-Action-IDs/status.svg?branch=master)](https://gradleupdate.appspot.com/centic9/IntelliJ-Action-IDs/status)
 [![Release](https://img.shields.io/github/release/centic9/IntelliJ-Action-IDs.svg)](https://github.com/centic9/IntelliJ-Action-IDs/releases)
 
-A small tool to search an installation of IntelliJ for any XML file and extract a list of action-ids that can be used in
-plugins.
+A small tool to search an installation of IntelliJ for action-XML files and extract 
+a list of action-ids that can be used in plugins.
 
 ### Structure
 
-There is some Java code which scans a given folder. The resulting data is stored as CSV file at docs/_data/actions.csv.
+There is some Java code which scans a given folder. The resulting data is stored as 
+CSV file at docs/_data/actions.csv. 
+
 Some jekyll templates take that data and produce the resulting HTML file.
 
 ### Run it
 
-Run the application `ProcessActionsXml` by passing it the location of an local IntelliJ installation. It will
-search through all the zip/jar-files recursively to find all files named ``*Action.xml`. The results will end up
-in the file `docs/_data/actions.csv`.
+Run the application `ProcessActionsXml` by passing it the location of an local IntelliJ 
+installation. It will search through all the zip/jar-files recursively to find all files 
+named ``*Action.xml`. The results will end up in the file `docs/_data/actions.csv`.
 
 You can then run Jekyll via the script `jekyll` to get the html built in directory `build/jekyll`.
 
-On Github, jekyll will be run automatically upon checkin and publish the results at https://centic9.github.io/IntelliJ-Action-IDs/
+On Github, jekyll will be run automatically upon checkin and publish the results at 
+https://centic9.github.io/IntelliJ-Action-IDs/
 
 ### Sources
 
