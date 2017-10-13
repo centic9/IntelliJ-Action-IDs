@@ -17,7 +17,7 @@ title: List of ActionIDs
     </thead>
     {% for action in site.data.actions %}
     <tr>
-        <td title="{{ action.text }}">{{ action.file }}</td>
+        <td title="{{ action.text }}">{% if action.link != null %}<a href="{{ action.link }}">{% endif %}{{ action.file }}{% if action.link != null %}</a>{% endif %}</td>
         <td title="{{ action.text }}">{{ action.id }}</td>
         <td title="{{ action.text }}">{{ action.text }}</td>
         <td title="{{ action.text }}">{{ action.group }}</td>

@@ -21,18 +21,19 @@ public class ProcessActionsXml {
         }
 
         try (final Writer out = new BufferedWriter(new FileWriter("docs/_data/actions.csv"))) {
-            try (final CSVPrinter printer = CSVFormat.DEFAULT.withHeader("file", "id", "text", "group").print(out)) {
+            try (final CSVPrinter printer = CSVFormat.DEFAULT.withHeader("file", "id", "text", "group", "link").print(out)) {
                 for (String dir : args) {
                     ActionDirectoryWalker walker = new ActionDirectoryWalker();
                     final SortedSetMultimap<String, ActionIDDef> ids = walker.walk(new File(dir));
                     for (String file : ids.keySet()) {
                         for (ActionIDDef def : ids.get(file)) {
                             final String fileName = StringUtils.removeStart(StringUtils.removeStart(StringUtils.removeStart(file, dir), "\\"), "/");
-                            System.out.println("File: " + fileName + ": had " + def.getId() + "/" + def.getText() + "/" + def.getGroup());
+                            System.out.println("File: " + fileName + ": had " + def.getId() + "/" + def.getText() + "/" + def.getGroup() + "/" + def.getLink());
                             printer.print(fileName);
                             printer.print(def.getId());
                             printer.print(def.getText());
                             printer.print(def.getGroup());
+                            printer.print(def.getLink());
                             printer.println();
                         }
                     }

@@ -35,7 +35,7 @@ public class ZipFileWalker {
 
 				File file = new File(zip, entry.getName());
 				if(ActionIDDef.isActionFile(file)) {
-					idsPerFile.putAll(file.getPath(), ActionIDDef.parse(zipFile.getInputStream(entry)));
+					idsPerFile.putAll(file.getPath(), ActionIDDef.parse(zipFile.getInputStream(entry), new File(entry.getName()).getName()));
 				}
 
 				// look for name or content inside zip-files as well, do it recursively to also
@@ -64,7 +64,7 @@ public class ZipFileWalker {
 
 			File file = new File(base, entry.getName());
 			if(ActionIDDef.isActionFile(file)) {
-				idsPerFile.putAll(file.getPath(), ActionIDDef.parse(new CloseShieldInputStream(zipStream)));
+				idsPerFile.putAll(file.getPath(), ActionIDDef.parse(new CloseShieldInputStream(zipStream), new File(entry.getName()).getName()));
 			}
 
 			if(ZipUtils.isZip(entry.getName())) {
