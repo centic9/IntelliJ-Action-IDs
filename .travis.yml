@@ -1,6 +1,7 @@
+dist: bionic
 language: java
 jdk:
-  - jdk11
+  - openjdk11
 
 before_install:
  - chmod +x gradlew
