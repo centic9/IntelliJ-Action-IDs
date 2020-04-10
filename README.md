@@ -1,23 +1,27 @@
-[![Build Status](https://travis-ci.org/centic9/IntelliJ-Action-IDs.svg)](https://travis-ci.org/centic9/IntelliJ-Action-IDs) [![Gradle Status](https://gradleupdate.appspot.com/centic9/IntelliJ-Action-IDs/status.svg?branch=master)](https://gradleupdate.appspot.com/centic9/IntelliJ-Action-IDs/status)
+[![Build Status](https://travis-ci.org/centic9/IntelliJ-Action-IDs.svg)](https://travis-ci.org/centic9/IntelliJ-Action-IDs) 
+[![Gradle Status](https://gradleupdate.appspot.com/centic9/IntelliJ-Action-IDs/status.svg?branch=master)](https://gradleupdate.appspot.com/centic9/IntelliJ-Action-IDs/status)
 [![Release](https://img.shields.io/github/release/centic9/IntelliJ-Action-IDs.svg)](https://github.com/centic9/IntelliJ-Action-IDs/releases)
 
-A small tool to search an installation of IntelliJ for action-XML files and extract 
+A small tool to search an installation of IntelliJ IDEA for action-XML files and extract 
 a list of action-ids that can be used in plugins.
 
 ### Structure
 
-There is some Java code which scans a given folder. The resulting data is stored as 
-CSV file at docs/_data/actions.csv. 
+There is Java code at `ProcessActionsXml` which scans a given folder for IntelliJ action ids. 
 
-Some jekyll templates take that data and produce the resulting HTML file.
+The resulting data is stored as CSV file at docs/_data/actions.csv. 
+
+Afterwards the [Jekyll template engine](https://jekyllrb.com/) is used to produce the resulting HTML file.
 
 ### Run it
 
 Run the application `ProcessActionsXml` by passing it the location of an local IntelliJ 
-installation. It will search through all the zip/jar-files recursively to find all files 
-named ``*Action.xml`. The results will end up in the file `docs/_data/actions.csv`.
+installation. 
 
-You can then run Jekyll via the script `jekyll` to get the html built in directory `build/jekyll`.
+It will search through all the zip/jar-files recursively to find all files 
+named `*Action.xml`. The results will end up in the file `docs/_data/actions.csv`.
+
+You can then run Jekyll via the script `./jekyll` to get the html built in directory `build/jekyll`.
 
 On Github, jekyll will be run automatically upon checkin and publish the results at 
 https://centic9.github.io/IntelliJ-Action-IDs/
@@ -33,7 +37,7 @@ requests or create [issues](https://github.com/centic9/IntelliJ-Action-IDs/issue
 
 ### Licensing
 
-   Copyright 2013-2017 Dominik Stadler
+   Copyright 2013-2020 Dominik Stadler
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
