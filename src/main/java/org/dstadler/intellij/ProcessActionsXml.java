@@ -3,6 +3,7 @@ package org.dstadler.intellij;
 import com.google.common.collect.SortedSetMultimap;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.dstadler.intellij.file.ActionDirectoryWalker;
 import org.dstadler.intellij.xml.ActionIDDef;
@@ -42,5 +43,8 @@ public class ProcessActionsXml {
                 }
             }
         }
+
+        // also fetch the version of IntelliJ IDEA by simply copying over the JSON file
+        FileUtils.copyFile(new File(args[0], "product-info.json"), new File("docs/_data/version.json"));
     }
 }
