@@ -23,7 +23,7 @@ repositories {
 
 dependencies {
     compile 'org.apache.commons:commons-lang3:3.10'
-    compile 'org.dstadler:commons-dost:1.0.0.30'
+    compile 'org.dstadler:commons-dost:1.0.0.31'
     compile 'org.apache.commons:commons-csv:1.8'
     compile 'com.google.guava:guava:28.2-jre'
 
