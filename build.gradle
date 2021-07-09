@@ -7,7 +7,7 @@ version = '1.0'
 
 jar {
     manifest {
-        attributes 'Implementation-Title': 'Application to produce a nicely formatted list of ActionIDs for the IntelliJ IDE Plugin system', 'Implementation-Version': version
+        attributes 'Implementation-Title': 'Application to produce a nicely formatted list of ActionIDs for the IntelliJ IDE Plugin system', 'Implementation-Version': archiveVersion
     }
 }
 
@@ -23,7 +23,7 @@ repositories {
 
 dependencies {
     compile 'org.apache.commons:commons-lang3:3.12.0'
-    compile 'org.dstadler:commons-dost:1.0.0.32'
+    compile 'org.dstadler:commons-dost:1.0.0.33'
     compile 'org.apache.commons:commons-csv:1.8'
     compile 'com.google.guava:guava:30.1.1-jre'
 
