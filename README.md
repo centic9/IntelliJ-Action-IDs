@@ -27,7 +27,7 @@ https://centic9.github.io/IntelliJ-Action-IDs/
 
 ### Sources
 
-The list at http://keithlea.com/idea-actions/ was used as starting point.
+The list at [http://keithlea.com/idea-actions/](https://web.archive.org/web/20211015233245/http://keithlea.com/idea-actions/) was used as starting point.
 
 ### Contribute
 
@@ -36,7 +36,7 @@ requests or create [issues](https://github.com/centic9/IntelliJ-Action-IDs/issue
 
 ### Licensing
 
-   Copyright 2013-2020 Dominik Stadler
+   Copyright 2013-2023 Dominik Stadler
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
