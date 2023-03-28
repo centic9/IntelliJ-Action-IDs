@@ -19,15 +19,15 @@ public class ActionIDDef implements Comparable<ActionIDDef> {
      */
     private static final Map<String, String> XML_TO_GITHUB = new HashMap<>();
     static {
+        XML_TO_GITHUB.put("ExternalSystemActions.xml", "https://github.com/JetBrains/intellij-community/blob/master/platform/external-system-impl/resources/META-INF");
         XML_TO_GITHUB.put("JavaActions.xml", "https://github.com/JetBrains/intellij-community/tree/master/resources/src/idea");
-        XML_TO_GITHUB.put("RichPlatformActions.xml", "https://github.com/JetBrains/intellij-community/tree/master/resources/src/idea");
-
-        XML_TO_GITHUB.put("XmlActions.xml", "https://github.com/JetBrains/intellij-community/tree/master/platform/platform-resources/src/META-INF");
-
-        XML_TO_GITHUB.put("ExternalSystemActions.xml", "https://github.com/JetBrains/intellij-community/tree/master/platform/platform-resources/src/idea");
         XML_TO_GITHUB.put("LangActions.xml", "https://github.com/JetBrains/intellij-community/tree/master/platform/platform-resources/src/idea");
         XML_TO_GITHUB.put("PlatformActions.xml", "https://github.com/JetBrains/intellij-community/tree/master/platform/platform-resources/src/idea");
-        XML_TO_GITHUB.put("VcsActions.xml", "https://github.com/JetBrains/intellij-community/tree/master/platform/platform-resources/src/idea");
+        XML_TO_GITHUB.put("PlatformExecutionActions.xml", "https://github.com/JetBrains/intellij-community/blob/master/platform/execution-impl/src/META-INF");
+        XML_TO_GITHUB.put("RichPlatformActions.xml", "https://github.com/JetBrains/intellij-community/tree/master/resources/src/idea");
+        XML_TO_GITHUB.put("UsageViewActions.xml", "https://github.com/JetBrains/intellij-community/blob/master/platform/usageView/resources/idea");
+        XML_TO_GITHUB.put("VcsActions.xml", "https://github.com/JetBrains/intellij-community/blob/master/platform/vcs-impl/resources/META-INF");
+        XML_TO_GITHUB.put("XmlActions.xml", "https://github.com/JetBrains/intellij-community/tree/master/platform/platform-resources/src/META-INF");
     }
 
     private String id;
