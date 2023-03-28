@@ -5,6 +5,7 @@ import org.xml.sax.SAXException;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.SortedMap;
 
 import static org.junit.Assert.assertEquals;
@@ -40,7 +41,8 @@ public class ActionXmlHandlerTest {
 
     @Test
     public void testXml() throws IOException, SAXException {
-        final SortedMap<String, ActionIDDef> actions = new ActionXmlHandler().parseContent(new ByteArrayInputStream(XML.getBytes("UTF-8")));
+        final SortedMap<String, ActionIDDef> actions = new ActionXmlHandler().parseContent(
+				new ByteArrayInputStream(XML.getBytes(StandardCharsets.UTF_8)));
         assertNotNull(actions);
         assertEquals("Had: " + actions, 4, actions.size());
         final ActionIDDef action = actions.get("VcsShowNextChangeMarker");

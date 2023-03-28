@@ -12,7 +12,7 @@ import java.util.Collections;
 
 
 public class ActionDirectoryWalker extends DirectoryWalker<File> {
-	private SortedSetMultimap<String, ActionIDDef> idsPerFile = TreeMultimap.create(Ordering.natural(), Ordering.natural());
+	private final SortedSetMultimap<String, ActionIDDef> idsPerFile = TreeMultimap.create(Ordering.natural(), Ordering.natural());
 
 	public SortedSetMultimap<String, ActionIDDef> walk(File startPath) throws IOException {
 		// we can also start with a Zip-file...
@@ -26,7 +26,7 @@ public class ActionDirectoryWalker extends DirectoryWalker<File> {
 	}
 
 	@Override
-	protected boolean handleDirectory(File directory, int depth, Collection<File> results) throws IOException {
+	protected boolean handleDirectory(File directory, int depth, Collection<File> results) {
 		return true;
 	}
 

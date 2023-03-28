@@ -2,7 +2,6 @@ package org.dstadler.intellij.xml;
 
 import org.dstadler.commons.xml.AbstractSimpleContentHandler;
 import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
 
 /**
  * A SAX-based XML parser which creates {@link ActionIDDef}s out of the Action-XML.
@@ -11,7 +10,7 @@ public class ActionXmlHandler extends AbstractSimpleContentHandler<String, Actio
     private String group = null;
 
     @Override
-    public void startElement(java.lang.String uri, java.lang.String localName, java.lang.String qName, Attributes attributes) throws SAXException {
+    public void startElement(java.lang.String uri, java.lang.String localName, java.lang.String qName, Attributes attributes) {
         // <action id="Vcs.ShowTabbedFileHistory" class="com.intellij.openapi.vcs.actions.TabbedShowHistoryAction" icon="AllIcons.Vcs.History"/>
         String id = attributes.getValue("id");
         if(id == null) {
@@ -38,7 +37,7 @@ public class ActionXmlHandler extends AbstractSimpleContentHandler<String, Actio
     }
 
     @Override
-    public void endElement(String uri, String localName, String qName) throws SAXException {
+    public void endElement(String uri, String localName, String qName) {
         if (localName.equals("group")) {
             group = null;
         }

@@ -47,7 +47,6 @@ public class ZipFileWalker {
 		}
 	}
 
-	@SuppressWarnings("resource")
 	private void walkRecursive(File base, InputStream stream, Multimap<String, ActionIDDef> idsPerFile) throws IOException {
 		ZipInputStream zipStream = new ZipInputStream(stream);
 		while(true) {
@@ -64,7 +63,7 @@ public class ZipFileWalker {
 
 			File file = new File(base, entry.getName());
 			if(ActionIDDef.isActionFile(file)) {
-				idsPerFile.putAll(file.getPath(), ActionIDDef.parse(new CloseShieldInputStream(zipStream), new File(entry.getName()).getName()));
+				idsPerFile.putAll(file.getPath(), ActionIDDef.parse(CloseShieldInputStream.wrap(zipStream), new File(entry.getName()).getName()));
 			}
 
 			if(ZipUtils.isZip(entry.getName())) {

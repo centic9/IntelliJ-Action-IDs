@@ -88,25 +88,23 @@ public class ActionIDDef implements Comparable<ActionIDDef> {
      * @return A collection of found ActionIDs.
      */
     public static Collection<? extends ActionIDDef> parse(InputStream stream, String fileName) throws IOException {
-        try {
-            ActionXmlHandler handler = new ActionXmlHandler();
-            handler.parseContent(stream);
-            final Collection<? extends ActionIDDef> actions = handler.getConfigs().values();
+		try (stream) {
+			ActionXmlHandler handler = new ActionXmlHandler();
+			handler.parseContent(stream);
+			final Collection<? extends ActionIDDef> actions = handler.getConfigs().values();
 
-            // populate the links if we find the filename in our static list
-            String link = XML_TO_GITHUB.get(fileName);
-            if(link != null) {
-                for (ActionIDDef action : actions) {
-                    action.setLink(link + "/" + fileName);
-                }
-            }
+			// populate the links if we find the filename in our static list
+			String link = XML_TO_GITHUB.get(fileName);
+			if (link != null) {
+				for (ActionIDDef action : actions) {
+					action.setLink(link + "/" + fileName);
+				}
+			}
 
-            return actions;
-        } catch (SAXException e) {
-            throw new IOException(e);
-        } finally {
-            stream.close();
-        }
+			return actions;
+		} catch (SAXException e) {
+			throw new IOException(e);
+		}
     }
 
     @Override
