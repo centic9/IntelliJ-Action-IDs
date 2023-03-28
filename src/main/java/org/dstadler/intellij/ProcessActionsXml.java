@@ -18,12 +18,26 @@ public class ProcessActionsXml {
     public static void main(String[] args) throws IOException {
         if(args.length == 0) {
             System.err.println("Usage: ProcessActionsXml <IntelliJDir1> [<IntelliJDir2] ...");
-            return;
+			System.exit(1);
         }
 
         try (final Writer out = new BufferedWriter(new FileWriter("docs/_data/actions.csv"))) {
-            try (final CSVPrinter printer = CSVFormat.DEFAULT.withHeader("file", "id", "text", "group", "link").print(out)) {
+            try (final CSVPrinter printer = CSVFormat.DEFAULT.builder().
+					setHeader("file", "id", "text", "group", "link").
+					build().
+					print(out)) {
                 for (String dir : args) {
+					if (!new File(dir).exists()) {
+						System.err.println("Directory " + dir + " does not exist");
+						System.exit(2);
+					}
+					if (!new File(dir).isDirectory()) {
+						System.err.println(dir + " is not a directory");
+						System.exit(3);
+					}
+
+					System.out.println("Processing " + dir);
+
                     ActionDirectoryWalker walker = new ActionDirectoryWalker();
                     final SortedSetMultimap<String, ActionIDDef> ids = walker.walk(new File(dir));
                     for (String file : ids.keySet()) {
