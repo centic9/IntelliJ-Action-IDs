@@ -26,7 +26,7 @@ dependencies {
     implementation 'org.apache.commons:commons-lang3:3.12.0'
     implementation 'org.dstadler:commons-dost:1.2.0.1'
     implementation 'org.apache.commons:commons-csv:1.10.0'
-    implementation 'com.google.guava:guava:32.0.1-jre'
+    implementation 'com.google.guava:guava:32.1.1-jre'
 
     testImplementation 'junit:junit:4.13.2'
 }
