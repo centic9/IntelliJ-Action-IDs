@@ -22,13 +22,13 @@ repositories {
 }
 
 dependencies {
-	implementation 'commons-io:commons-io:2.13.0'
+	implementation 'commons-io:commons-io:2.14.0'
     implementation 'org.apache.commons:commons-lang3:3.13.0'
-    implementation 'org.dstadler:commons-dost:1.2.0.2'
+    implementation 'org.dstadler:commons-dost:1.2.0.3'
     implementation 'org.apache.commons:commons-csv:1.10.0'
     implementation 'com.google.guava:guava:32.1.2-jre'
 
-    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.junit.vintage:junit-vintage-engine:5.10.0'
 }
 
 wrapper {
