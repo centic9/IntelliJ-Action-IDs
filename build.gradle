@@ -28,7 +28,7 @@ dependencies {
     implementation 'org.apache.commons:commons-csv:1.10.0'
     implementation 'com.google.guava:guava:32.1.3-jre'
 
-    testImplementation 'org.junit.vintage:junit-vintage-engine:5.10.0'
+    testImplementation 'org.junit.vintage:junit-vintage-engine:5.10.1'
 }
 
 wrapper {
