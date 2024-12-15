@@ -1,6 +1,6 @@
 package org.dstadler.intellij.xml;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.xml.sax.SAXException;
 
 import java.io.ByteArrayInputStream;
@@ -8,44 +8,46 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.SortedMap;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-public class ActionXmlHandlerTest {
-    protected static final String XML = "<idea-plugin>\n" +
-            "  <actions>\n" +
-            "    <action id=\"Vcs.ShowTabbedFileHistory\" class=\"com.intellij.openapi.vcs.actions.TabbedShowHistoryAction\"\n" +
-            "            icon=\"AllIcons.Vcs.History\"/>\n" +
-            "    <action id=\"Vcs.ShowHistoryForRevision\" class=\"com.intellij.openapi.vcs.actions.TabbedShowHistoryForRevisionAction\"\n" +
-            "            icon=\"AllIcons.Vcs.History\"/>\n" +
-            "\n" +
-            "    <group class=\"com.intellij.openapi.vcs.actions.VcsActionGroup\" id=\"VcsGroup\"/>\n" +
-            "\n" +
-            "    <group class=\"com.intellij.openapi.vcs.actions.VcsGroupsWrapper\" id=\"VcsFileGroupPopup\" popup=\"true\"/>\n" +
-            "\n" +
-            "    <group id=\"VersionControlsGroup\">\n" +
-            "      <reference ref=\"VcsFileGroupPopup\"/>\n" +
-            "    </group>\n" +
-            "\n" +
-            "    <group id=\"GoToChangeMarkerGroup\">\n" +
-            "      <separator/>\n" +
-            "      <action id=\"VcsShowNextChangeMarker\" class=\"com.intellij.openapi.vcs.actions.ShowNextChangeMarkerAction\"\n" +
-            "              icon=\"AllIcons.Actions.NextOccurence\"/>\n" +
-            "      <action id=\"VcsShowPrevChangeMarker\" class=\"com.intellij.openapi.vcs.actions.ShowPrevChangeMarkerAction\"\n" +
-            "              icon=\"AllIcons.Actions.PreviousOccurence\"/>\n" +
-            "\n" +
-            "      <add-to-group group-id=\"GoToMenu\" anchor=\"last\"/>\n" +
-            "    </group>\n" +
-            "  </actions>\n" +
-            "</idea-plugin>\n";
+class ActionXmlHandlerTest {
+    protected static final String XML = """
+            <idea-plugin>
+              <actions>
+                <action id="Vcs.ShowTabbedFileHistory" class="com.intellij.openapi.vcs.actions.TabbedShowHistoryAction"
+                        icon="AllIcons.Vcs.History"/>
+                <action id="Vcs.ShowHistoryForRevision" class="com.intellij.openapi.vcs.actions.TabbedShowHistoryForRevisionAction"
+                        icon="AllIcons.Vcs.History"/>
+            
+                <group class="com.intellij.openapi.vcs.actions.VcsActionGroup" id="VcsGroup"/>
+            
+                <group class="com.intellij.openapi.vcs.actions.VcsGroupsWrapper" id="VcsFileGroupPopup" popup="true"/>
+            
+                <group id="VersionControlsGroup">
+                  <reference ref="VcsFileGroupPopup"/>
+                </group>
+            
+                <group id="GoToChangeMarkerGroup">
+                  <separator/>
+                  <action id="VcsShowNextChangeMarker" class="com.intellij.openapi.vcs.actions.ShowNextChangeMarkerAction"
+                          icon="AllIcons.Actions.NextOccurence"/>
+                  <action id="VcsShowPrevChangeMarker" class="com.intellij.openapi.vcs.actions.ShowPrevChangeMarkerAction"
+                          icon="AllIcons.Actions.PreviousOccurence"/>
+            
+                  <add-to-group group-id="GoToMenu" anchor="last"/>
+                </group>
+              </actions>
+            </idea-plugin>
+            """;
 
     @Test
-    public void testXml() throws IOException, SAXException {
+    void testXml() throws IOException, SAXException {
         final SortedMap<String, ActionIDDef> actions = new ActionXmlHandler().parseContent(
 				new ByteArrayInputStream(XML.getBytes(StandardCharsets.UTF_8)));
         assertNotNull(actions);
-        assertEquals("Had: " + actions, 4, actions.size());
+        assertEquals(4, actions.size(), "Had: " + actions);
         final ActionIDDef action = actions.get("VcsShowNextChangeMarker");
-        assertEquals("Had: " + action, "GoToChangeMarkerGroup", action.getGroup());
+        assertEquals("GoToChangeMarkerGroup", action.getGroup(), "Had: " + action);
     }
 }

@@ -28,7 +28,9 @@ dependencies {
     implementation 'org.apache.commons:commons-csv:1.12.0'
     implementation 'com.google.guava:guava:33.3.1-jre'
 
-    testImplementation 'org.junit.vintage:junit-vintage-engine:5.11.3'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.11.3'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.11.3'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher:1.11.3'
 }
 
 wrapper {
@@ -43,6 +45,8 @@ test {
 
     // http://forums.gradle.org/gradle/topics/jacoco_related_failure_in_multiproject_build
     systemProperties['user.dir'] = workingDir
+
+    useJUnitPlatform()
 }
 
 jacoco {
