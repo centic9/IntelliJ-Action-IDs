@@ -2,7 +2,9 @@ apply plugin: 'java'
 apply plugin: 'jacoco'
 apply plugin: 'application'
 
-mainClassName = 'org.dstadler.intellij.ProcessActionsXml'
+application {
+    mainClass = 'org.dstadler.intellij.ProcessActionsXml'
+}
 version = '1.0'
 
 jar {
@@ -11,7 +13,11 @@ jar {
     }
 }
 
-sourceCompatibility = JavaVersion.VERSION_17
+java {
+	  toolchain {
+		  sourceCompatibility = JavaVersion.VERSION_17
+	  }
+ }
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
