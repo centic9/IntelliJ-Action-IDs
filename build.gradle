@@ -28,19 +28,19 @@ repositories {
 }
 
 dependencies {
-	implementation 'commons-io:commons-io:2.19.0'
-    implementation 'org.apache.commons:commons-lang3:3.17.0'
-    implementation 'org.dstadler:commons-dost:1.4.2'
+	implementation 'commons-io:commons-io:2.20.0'
+    implementation 'org.apache.commons:commons-lang3:3.18.0'
+    implementation 'org.dstadler:commons-dost:1.4.3'
     implementation 'org.apache.commons:commons-csv:1.14.0'
     implementation 'com.google.guava:guava:33.4.8-jre'
 
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.13.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.13.1'
-    testRuntimeOnly 'org.junit.platform:junit-platform-launcher:1.13.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.13.4'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.13.4'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher:1.13.4'
 }
 
 wrapper {
-    gradleVersion = '8.14.2'
+    gradleVersion = '8.14.3'
 }
 
 test {
