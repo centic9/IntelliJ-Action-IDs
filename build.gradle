@@ -28,15 +28,15 @@ repositories {
 }
 
 dependencies {
-	implementation 'commons-io:commons-io:2.20.0'
-    implementation 'org.apache.commons:commons-lang3:3.19.0'
-    implementation 'org.dstadler:commons-dost:1.4.3'
+	implementation 'commons-io:commons-io:2.21.0'
+    implementation 'org.apache.commons:commons-lang3:3.20.0'
+    implementation 'org.dstadler:commons-dost:1.4.4'
     implementation 'org.apache.commons:commons-csv:1.14.0'
     implementation 'com.google.guava:guava:33.5.0-jre'
 
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:6.0.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:6.0.0'
-    testRuntimeOnly 'org.junit.platform:junit-platform-launcher:6.0.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:6.0.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:6.0.1'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher:6.0.1'
 }
 
 wrapper {
